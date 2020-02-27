@@ -36,10 +36,9 @@ public:
       cout << "**conected to client**" << endl;
 
       if (clientSFD == -1) {
-	cerr << "Error: cannot accept connection on socket" << endl;
-	return -1;
+      	cerr << "Error: cannot accept connection on socket" << endl;
+      	return -1;
       }
-
       thread newthread(newThread,clientSFD);
       newthread.detach();
     }
@@ -47,7 +46,7 @@ public:
 
   static void newThread(int clientSFD){
     cout<<"inside new thread"<<endl;
-      char * buffer=new char[65535];
+    char * buffer=new char[65535];
     int numbytes;
     if((numbytes=recv(clientSFD,buffer,65535,0))==-1){
       cerr<<"Error: receive -1 bytes"<<endl;
@@ -56,45 +55,19 @@ public:
     if(numbytes==0){
       exit(1);
     }
-    parseHttpRequest phr(buffer);
-    string hostname=phr.getHostName();
-    switch(phr.getRequestType().size()){
-    case 3:
-      //get
-      {
-	proxyServerGET ps(hostname,buffer, numbytes, "80");
-	int res2 = ps.getHttpResponse();
-	if (res2 > 0) {
-	  cout << "res2: " << res2;
-	}
-	char * httpResponse = ps.getBufFromServer();
-	int bytesSend = send(clientSFD, httpResponse, ps.getHttpResSize(), 0);
-      }
-      break;
-      
-    case 4:
-      //post
-      {
-	proxyServerPOST ps(hostname,buffer,numbytes,"80");
-	//should we pass the clientSFD into the proxyServerPost?
-	int res2=ps.getHttpResponse();
-	if(res2>0){
-	  cout<<"res2: "<<res2;
-	}
-	char *httpResponse2=ps.getBufFromServer();
-	int bytesSend2=send(clientSFD,httpResponse2,ps.getHttpResSize(),0);
-      }
-      break;
-      
-    case 7:
-      //connect
-      //problem: may have 443 in the end of host name
-      {
-	proxyServerCONNECT ps(hostname,buffer,numbytes,"443",clientSFD);
-	int res=ps.tunnelRun();	
-      }
-      break;
+    parseBuffer pb(buffer);
+    string hostname=pb.getHostName();
+    string requestType=pb.getRequestType();
+    std::cout<<"***requestType:"<<requestType<<"***"<<endl;
+    if (requestType=="GET"||requestType=="POST"){
+        cout<<"***inside of GET***"<<endl;
+        proxyServerGET ps(hostname,buffer, numbytes,clientSFD);
+        ps.run();
+    }else if(requestType=="CONNECT"){
+        proxyServerCONNECT ps(hostname,buffer,numbytes,clientSFD);
+        ps.run(); 
     }
+    
   }
     
   int getProxySFD(){

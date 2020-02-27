@@ -16,17 +16,26 @@ using namespace std;
 
 class proxyServerCONNECT {
 private:
-  string hostServer;
-  char * bufToServer;
-  size_t endIdx;
-  size_t httpResSize;
-  string portNum;
-  int clientFD;
-
+  // string hostServer;
+  // char * bufToServer;
+  // size_t endIdx;
+  // size_t httpResSize;
+  // string portNum;
+  // int clientFD;
+  string hostname;
+  char * request;
+  size_t requestLen;
+  char * response;
+  size_t responseLen;
+  int clientSFD;
+  int serverSFD;
 public:
-  proxyServerCONNECT(string hs, char * buftoserver, size_t eIdx, string portnum, int cFD): hostServer(hs), bufToServer(buftoserver), endIdx(eIdx), portNum(portnum), clientFD(cFD) {
+  proxyServerCONNECT(string hn, char * buf, size_t rl,int csfd): \
+  hostname(hn), request(buf), requestLen(rl),clientSFD(csfd) {
+    size_t colon = hostname.find(":");
+    hostname = hostname.substr(0, colon);
+    response = nullptr;
   }
-
   // get sockaddr, IPv4 or IPv6:
   void *get_in_addr(struct sockaddr *sa) {
     if (sa->sa_family == AF_INET) {
@@ -35,40 +44,32 @@ public:
     return &(((struct sockaddr_in6*)sa)->sin6_addr);
   }
 
-  void getServerName() {    // remove ":443"
-    size_t colon = hostServer.find(":");
-    hostServer = hostServer.substr(0, colon);
-  }
-
-  int tunnelRun() {
-    int sockfd;
+  int connectToServer(){
     struct addrinfo hints, *servinfo, *p;
-    int rv;
     char s[INET6_ADDRSTRLEN];
 
     memset(&hints, 0, sizeof hints);
     hints.ai_family = AF_UNSPEC;
-    // hints.ai_socktype = SOCK_STREAM;
+    hints.ai_socktype = SOCK_STREAM;
 
-    getServerName();
-    cout << "hostserver: " << hostServer << endl;
-    cout << "port number: " << portNum << endl;
-    if ((rv = getaddrinfo(hostServer.c_str(), portNum.c_str(), &hints, &servinfo)) != 0) {
-      fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(rv));
+    //get host info
+    int gr;
+    if ((gr = getaddrinfo(hostname.c_str(), "443", &hints, &servinfo)) != 0) {
+      fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(gr));
       return 1;
     }
 
-    // loop through all the results and connect to the first we can
+    //connect to host and get serverSFD
     for (p = servinfo; p != NULL; p = p->ai_next) {
-      if ((sockfd = socket(p->ai_family, p->ai_socktype,
+      if ((serverSFD = socket(p->ai_family, p->ai_socktype,
                            p->ai_protocol)) == -1) {
         perror("client: socket");
         continue;
       }
 
-      if (connect(sockfd, p->ai_addr, p->ai_addrlen) == -1) {
+      if (connect(serverSFD, p->ai_addr, p->ai_addrlen) == -1) {
         perror("client: connect");
-        close(sockfd);
+        close(serverSFD);
         continue;
       }
 
@@ -76,52 +77,57 @@ public:
     }
 
     if (p == NULL) {
-      fprintf(stderr, "client: failed to connect\n");
+      perror("Error: failed to connectserver");
       return 2;
     }
-
     inet_ntop(p->ai_family, get_in_addr((struct sockaddr *)p->ai_addr),
               s, sizeof s);
     printf("client: connecting to %s\n", s);
-
     freeaddrinfo(servinfo); // all done with this structure
+    setTunnel();
+    return 0;
+  }
 
-    // up to here, connected to server
+  void setTunnel(){
     const char * okMsg = "200 OK\r\n";
-    send(clientFD, okMsg, strlen(okMsg), 0);
+    send(clientSFD, okMsg, strlen(okMsg), 0);
     while (true) {
       fd_set fdsets;
       FD_ZERO(&fdsets);
-      FD_SET(clientFD, &fdsets);
-      FD_SET(sockfd, &fdsets);
-      int maxfd = max(clientFD, sockfd);
+      FD_SET(clientSFD, &fdsets);
+      FD_SET(serverSFD, &fdsets);
+      int maxfd = max(clientSFD, serverSFD);
       select(maxfd + 1, &fdsets, NULL, NULL, NULL);
-      int FDselected = (FD_ISSET(clientFD, &fdsets)) ? clientFD : sockfd;
-      int FDsendto = (FD_ISSET(clientFD, &fdsets)) ? sockfd : clientFD;
+      int FDselected = (FD_ISSET(clientSFD, &fdsets)) ? clientSFD : serverSFD;
+      int FDsendto = (FD_ISSET(clientSFD, &fdsets)) ? serverSFD : clientSFD;
       char buff[65535];
       int recvRes = recv(FDselected, buff, 65535, 0);
 
       // for test
-      string recvfrom = (FDselected == clientFD) ? "client" : "server";
+      string recvfrom = (FDselected == clientSFD) ? "client" : "server";
       cout << "This time receive from " << recvfrom << endl;
       cout << "recvRes: " << recvRes << endl;
 
       if(recvRes == 0) {
-	close(clientFD);
-	close(sockfd);
-	break;
+        close(clientSFD);
+        close(serverSFD);
+        break;
       }
       send(FDsendto, buff, recvRes, 0);
 
       // temp compromise
       //break;  
     }
-
-    cout << "out!!!!!!!!!" << endl;
-
-    return 0;
+    cout << "***Connection ends***" << endl;
   }
 
-  ~proxyServerCONNECT () {
+  void run(){
+    //cout<<"***inside of proxyServerGET.run()***"<<endl;
+    int res;
+    if(res=connectToServer()!=0){
+      exit(1);
+    }
+    close(clientSFD);
+    close(serverSFD);
   }
 };
