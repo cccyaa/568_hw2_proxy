@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 #include <cstring>
 #include <sys/socket.h>
 #include <netdb.h>
@@ -12,7 +12,8 @@
 #include "proxyServerGET.cpp" 
 #include "proxyServerCONNECT.cpp"
 #include "proxyServerPOST.cpp"
-#include "parseHttpRequest.cpp"
+#include "parseBuffer.hpp"
+#include "logger.hpp"
 
 using namespace std;
 

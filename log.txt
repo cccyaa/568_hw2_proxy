@@ -1,0 +1,965 @@
+100: GET http://www.google.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:18:38 2020
+100: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+100: Received "HTTP/1.1 302 Found" fromwww.google.com
+100: GET http://www.google.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:24:41 2020
+100: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+100: Received "HTTP/1.1 302 Found" fromwww.google.com
+100: GET http://www.google.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:28:15 2020
+100: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+100: Received "HTTP/1.1 302 Found" fromwww.google.com
+100: GET http://www.google.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:30:22 2020
+100: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+100: Received "HTTP/1.1 302 Found" fromwww.google.com
+100: GET http://www.google.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:36:03 2020
+100: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+100: Received "HTTP/1.1 302 Found" fromwww.google.com
+100: GET http://www.google.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:37:32 2020
+100: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+100: Received "HTTP/1.1 302 Found" fromwww.google.com
+100: Responding "HTTP/1.1 302 Found"
+100: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:38:36 2020
+100: Responding "200 OK"
+101: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:38:36 2020
+101: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+101: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+101: Responding "HTTP/1.1 200 OK"
+100: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:39:57 2020
+100: Responding "200 OK"
+101: CONNECT ssl.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:39:57 2020
+101: Responding "200 OK"
+102: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:39:57 2020
+102: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+102: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+102: Responding "HTTP/1.1 200 OK"
+100: CONNECT play.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:45:06 2020
+100: Responding "200 OK"
+101: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:45:11 2020
+101: Responding "200 OK"
+102: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:45:11 2020
+101: Tunnel closed
+102: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+102: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+102: Responding "HTTP/1.1 200 OK"
+100: GET http://www.google.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:48:22 2020
+100: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+100: Received "HTTP/1.1 302 Found" fromwww.google.com
+100: Responding "HTTP/1.1 302 Found"
+100: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:50:57 2020
+100: Responding "200 OK"
+101: CONNECT ssl.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:50:58 2020
+101: Responding "200 OK"
+102: CONNECT id.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:50:58 2020
+102: Responding "200 OK"
+103: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:50:58 2020
+103: Responding "200 OK"
+104: CONNECT apis.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:50:58 2020
+104: Responding "200 OK"
+105: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:50:58 2020
+105: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+105: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+105: Responding "HTTP/1.1 200 OK"
+100: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:53:38 2020
+100: Responding "200 OK"
+101: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:53:41 2020
+101: Responding "200 OK"
+102: GET http://www.baidu.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:53:42 2020
+102: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+102: Received "HTTP/1.1 200 OK" fromwww.baidu.com
+102: NOTE received chunked content
+101: GET http://www.baidu.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 14:54:43 2020
+101: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+101: Received "HTTP/1.1 200 OK" fromwww.baidu.com
+101: NOTE received chunked content
+100: ERROR receive 0 byte from client
+100: GET http://www.baidu.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:00:56 2020
+100: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+100: Received "HTTP/1.1 200 OK" fromwww.baidu.com
+100: NOTE received chunked content
+100: GET http://www.baidu.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:01:28 2020
+100: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+100: Received "HTTP/1.1 200 OK" fromwww.baidu.com
+100: NOTE received chunked content
+100: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:03 2020
+100: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+100: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+102: GET http://www.baidu.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:05 2020
+102: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+102: Received "HTTP/1.1 200 OK" fromwww.baidu.com
+101: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:07 2020
+101: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+101: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+103: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:12 2020
+103: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+103: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+104: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:12 2020
+104: Responding "200 OK"
+105: GET http://www.baidu.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:13 2020
+105: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+105: Received "HTTP/1.1 200 OK" fromwww.baidu.com
+106: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:17 2020
+106: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+106: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+107: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:18 2020
+107: Responding "200 OK"
+109: CONNECT id.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:18 2020
+109: Responding "200 OK"
+111: CONNECT apis.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:18 2020
+111: Responding "200 OK"
+112: CONNECT adservice.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:18 2020
+113: CONNECT ogs.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:18 2020
+112: Responding "200 OK"
+113: Responding "200 OK"
+114: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:18 2020
+114: Responding "200 OK"
+115: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:19 2020
+115: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+115: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+116: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:22 2020
+116: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+116: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+100: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:30 2020
+100: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+100: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+101: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:32 2020
+101: Responding "200 OK"
+103: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+103: Responding "200 OK"
+104: CONNECT apis.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+104: Responding "200 OK"
+105: CONNECT csi.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+105: Responding "200 OK"
+106: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+107: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+108: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+109: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+110: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:33 2020
+106: Responding "200 OK"
+107: Responding "200 OK"
+108: Responding "200 OK"
+109: Responding "200 OK"
+110: Responding "200 OK"
+107: Tunnel closed
+108: Tunnel closed
+109: Tunnel closed
+110: Tunnel closed
+111: CONNECT adservice.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:34 2020
+111: Responding "200 OK"
+113: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:34 2020
+113: Responding "200 OK"
+114: CONNECT www.nddmed.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:34 2020
+114: Responding "200 OK"
+100: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:40 2020
+100: Responding "200 OK"
+102: CONNECT www.nddmed.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:41 2020
+102: Responding "200 OK"
+103: CONNECT www.googletagmanager.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+103: Responding "200 OK"
+104: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+104: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+104: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+105: CONNECT d37gvrvc0wt4s1.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+106: CONNECT www.recaptcha.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+106: Responding "200 OK"
+105: Responding "200 OK"
+107: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+107: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+107: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+108: CONNECT bat.bing.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+108: Responding "200 OK"
+109: CONNECT cdnjs.cloudflare.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+109: Responding "200 OK"
+110: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:42 2020
+110: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+110: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+111: CONNECT d3cumwfln92soa.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:43 2020
+111: Responding "200 OK"
+112: CONNECT www.google-analytics.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:43 2020
+113: CONNECT pbs.twimg.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:43 2020
+114: CONNECT pbs.twimg.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:43 2020
+115: CONNECT pbs.twimg.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:43 2020
+112: Responding "200 OK"
+113: Responding "200 OK"
+115: Responding "200 OK"
+114: Responding "200 OK"
+116: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:43 2020
+116: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+116: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+115: Tunnel closed
+114: Tunnel closed
+117: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:44 2020
+117: Responding "200 OK"
+118: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:44 2020
+119: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:44 2020
+119: Responding "200 OK"
+118: Responding "200 OK"
+118: Tunnel closed
+100: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:57 2020
+101: CONNECT d3cumwfln92soa.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:57 2020
+102: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:57 2020
+101: Responding "200 OK"
+100: Responding "200 OK"
+102: Responding "200 OK"
+103: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:57 2020
+103: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+103: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+105: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:02:57 2020
+105: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+105: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+107: GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:00 2020
+107: Requesting "GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1" from people.duke.edu
+107: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+107: Responding "HTTP/1.1 200 OK"
+108: GET http://people.duke.edu/~bmr23/style.css HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:00 2020
+108: Requesting "GET http://people.duke.edu/~bmr23/style.css HTTP/1.1" from people.duke.edu
+108: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+108: Responding "HTTP/1.1 200 OK"
+109: GET http://people.duke.edu/favicon.ico HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:00 2020
+109: Requesting "GET http://people.duke.edu/favicon.ico HTTP/1.1" from people.duke.edu
+109: Received "HTTP/1.1 404 Not Found" frompeople.duke.edu
+109: Responding "HTTP/1.1 404 Not Found"
+110: GET http://people.duke.edu/~bmr23/ece568/syllabus.pdf HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:03 2020
+110: Requesting "GET http://people.duke.edu/~bmr23/ece568/syllabus.pdf HTTP/1.1" from people.duke.edu
+110: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+110: Responding "HTTP/1.1 200 OK"
+101: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:41 2020
+101: Responding "200 OK"
+102: POST http://ocsp.godaddy.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:41 2020
+102: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+102: Received "HTTP/1.1 200 OK" fromocsp.godaddy.com
+103: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:43 2020
+104: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:43 2020
+105: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:43 2020
+106: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:43 2020
+107: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:43 2020
+104: Responding "200 OK"
+103: Responding "200 OK"
+105: Responding "200 OK"
+106: Responding "200 OK"
+107: Responding "200 OK"
+108: CONNECT www.googletagmanager.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:44 2020
+109: CONNECT www.youtube-nocookie.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:44 2020
+108: Responding "200 OK"
+109: Responding "200 OK"
+110: CONNECT connect.facebook.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:44 2020
+110: Responding "200 OK"
+112: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:44 2020
+111: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:44 2020
+113: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:44 2020
+112: Responding "200 OK"
+111: Responding "200 OK"
+113: Responding "200 OK"
+114: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:44 2020
+114: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+114: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+111: Tunnel closed
+113: Tunnel closed
+115: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:45 2020
+117: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:45 2020
+115: Responding "200 OK"
+118: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:45 2020
+117: Responding "200 OK"
+116: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:45 2020
+118: Responding "200 OK"
+116: Responding "200 OK"
+119: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:45 2020
+120: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:03:45 2020
+119: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+120: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+119: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+120: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+116: Tunnel closed
+117: Tunnel closed
+110: Tunnel closed
+118: Tunnel closed
+100: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+101: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+103: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+102: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+104: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+105: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+100: Responding "200 OK"
+101: Responding "200 OK"
+102: Responding "200 OK"
+103: Responding "200 OK"
+104: Responding "200 OK"
+105: Responding "200 OK"
+106: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+106: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+107: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+108: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+110: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+109: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:57 2020
+106: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+107: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+108: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+110: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+109: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+108: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+107: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+110: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+109: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+111: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:04:59 2020
+111: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+111: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+112: GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:00 2020
+112: Requesting "GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1" from people.duke.edu
+112: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+112: Responding "HTTP/1.1 200 OK"
+113: GET http://people.duke.edu/~bmr23/style.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:00 2020
+113: Requesting "GET http://people.duke.edu/~bmr23/style.css HTTP/1.1" from people.duke.edu
+113: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+113: Responding "HTTP/1.1 200 OK"
+114: GET http://people.duke.edu/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:00 2020
+114: Requesting "GET http://people.duke.edu/favicon.ico HTTP/1.1" from people.duke.edu
+114: Received "HTTP/1.1 404 Not Found" frompeople.duke.edu
+114: Responding "HTTP/1.1 404 Not Found"
+115: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:05 2020
+115: Responding "200 OK"
+115: Tunnel closed
+116: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:05 2020
+116: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+116: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+117: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:05 2020
+117: Responding "200 OK"
+118: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:05 2020
+118: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+117: Tunnel closed
+118: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+119: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:05 2020
+119: Responding "200 OK"
+120: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:05 2020
+120: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+120: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+121: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:08 2020
+121: Responding "200 OK"
+123: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:08 2020
+122: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:08 2020
+123: Responding "200 OK"
+122: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+122: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+124: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:08 2020
+124: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+124: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+125: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+126: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+125: Responding "200 OK"
+126: Responding "200 OK"
+127: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+128: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+127: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+128: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+127: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+128: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+132: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+131: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+133: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+134: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+132: Responding "200 OK"
+131: Responding "200 OK"
+134: Responding "200 OK"
+133: Responding "200 OK"
+129: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:09 2020
+129: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+129: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+130: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:10 2020
+130: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+130: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+135: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:11 2020
+135: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+135: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+123: Tunnel closed
+136: CONNECT apis.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:11 2020
+136: Responding "200 OK"
+137: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:11 2020
+138: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:11 2020
+137: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+138: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+137: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+138: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+126: Tunnel closed
+125: Tunnel closed
+131: Tunnel closed
+133: Tunnel closed
+134: Tunnel closed
+139: CONNECT adservice.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:13 2020
+140: CONNECT ogs.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:13 2020
+139: Responding "200 OK"
+140: Responding "200 OK"
+141: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:13 2020
+142: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:13 2020
+141: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+142: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+141: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+142: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+143: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:14 2020
+143: Responding "200 OK"
+144: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:14 2020
+143: Tunnel closed
+144: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+144: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+145: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:15 2020
+145: Responding "200 OK"
+146: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:15 2020
+146: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+146: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+145: Tunnel closed
+147: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:15 2020
+147: Responding "200 OK"
+148: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:15 2020
+148: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+148: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+149: GET http://www.baidu.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:17 2020
+149: Requesting "GET http://www.baidu.com/ HTTP/1.1" from www.baidu.com
+149: Received "HTTP/1.1 200 OK" fromwww.baidu.com
+149: NOTE received chunked content
+150: CONNECT www.youtube.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:39 2020
+150: Responding "200 OK"
+151: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:40 2020
+151: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+151: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+152: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:42 2020
+152: Responding "200 OK"
+153: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:42 2020
+153: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+153: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+154: CONNECT fonts.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:42 2020
+154: Responding "200 OK"
+155: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:42 2020
+155: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+155: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+159: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+157: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+158: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+161: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+162: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+160: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+156: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+159: Responding "200 OK"
+158: Responding "200 OK"
+157: Responding "200 OK"
+162: Responding "200 OK"
+161: Responding "200 OK"
+156: Responding "200 OK"
+160: Responding "200 OK"
+168: CONNECT accounts.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+168: Responding "200 OK"
+169: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+172: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+171: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+170: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+173: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:44 2020
+169: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+171: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+170: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+172: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+173: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+169: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+171: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+170: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+173: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+172: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+174: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:45 2020
+174: Responding "200 OK"
+175: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:45 2020
+176: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:45 2020
+175: Responding "200 OK"
+176: Responding "200 OK"
+177: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:46 2020
+177: Responding "200 OK"
+178: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:46 2020
+178: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+179: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:46 2020
+180: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:46 2020
+182: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:46 2020
+181: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:46 2020
+178: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+162: Tunnel closed
+157: Tunnel closed
+161: Tunnel closed
+179: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+180: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+182: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+181: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+179: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+180: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+182: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+181: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+100: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:57 2020
+101: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:57 2020
+102: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:57 2020
+100: Responding "200 OK"
+102: Responding "200 OK"
+101: Responding "200 OK"
+104: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:57 2020
+103: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:05:57 2020
+104: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+103: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+103: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+104: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+105: CONNECT www.youtube.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:06:01 2020
+105: Responding "200 OK"
+100: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:07:18 2020
+100: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+100: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+102: GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:07:18 2020
+102: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+102: Received "HTTP/1.1 200 OK" fromwww.httpwatch.com
+102: NOTE received chunked content
+101: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:07:20 2020
+101: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+101: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+102: Responding "HTTP/1.1 200 OK"
+103: GET http://www.httpwatch.com/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:07:23 2020
+103: Requesting "GET http://www.httpwatch.com/favicon.ico HTTP/1.1" from www.httpwatch.com
+103: Received "HTTP/1.1 200 OK" fromwww.httpwatch.com
+104: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:07:25 2020
+104: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+104: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+105: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:07:26 2020
+105: Responding "200 OK"
+100: GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:27:58 2020
+100: Requesting "GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1" from people.duke.edu
+100: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+100: Responding "HTTP/1.1 200 OK"
+101: GET http://people.duke.edu/~bmr23/style.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:27:58 2020
+101: Requesting "GET http://people.duke.edu/~bmr23/style.css HTTP/1.1" from people.duke.edu
+101: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+101: Responding "HTTP/1.1 200 OK"
+102: GET http://people.duke.edu/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:27:58 2020
+102: Requesting "GET http://people.duke.edu/favicon.ico HTTP/1.1" from people.duke.edu
+102: Received "HTTP/1.1 404 Not Found" frompeople.duke.edu
+102: Responding "HTTP/1.1 404 Not Found"
+103: GET http://people.duke.edu/~bmr23/ece568/slides/1-ha.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:03 2020
+103: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/1-ha.pdf HTTP/1.1" from people.duke.edu
+103: Received "HTTP/1.1 404 Not Found" frompeople.duke.edu
+103: Responding "HTTP/1.1 404 Not Found"
+104: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:08 2020
+104: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+104: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+105: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:14 2020
+105: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+105: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+106: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:14 2020
+106: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+106: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+106: Responding "HTTP/1.1 206 Partial Content"
+107: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:14 2020
+107: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+107: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+107: Responding "HTTP/1.1 206 Partial Content"
+108: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:14 2020
+108: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+108: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+108: Responding "HTTP/1.1 206 Partial Content"
+105: Responding "HTTP/1.1 206 Partial Content"
+109: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:14 2020
+110: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:14 2020
+109: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+110: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+111: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:14 2020
+111: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+110: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+109: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+110: Responding "HTTP/1.1 206 Partial Content"
+111: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+109: Responding "HTTP/1.1 206 Partial Content"
+111: Responding "HTTP/1.1 206 Partial Content"
+112: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:15 2020
+112: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_05_Containers.pdf HTTP/1.1" from people.duke.edu
+112: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+112: Responding "HTTP/1.1 206 Partial Content"
+113: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:17 2020
+113: Responding "200 OK"
+113: Tunnel closed
+114: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:18 2020
+114: Responding "200 OK"
+115: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:18 2020
+115: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+115: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+104: Responding "HTTP/1.1 200 OK"
+114: Tunnel closed
+116: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:20 2020
+116: Responding "200 OK"
+117: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:20 2020
+117: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+116: Tunnel closed
+117: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+118: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:20 2020
+118: Responding "200 OK"
+119: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:20 2020
+119: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+119: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+118: Tunnel closed
+120: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:20 2020
+120: Responding "200 OK"
+121: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:20 2020
+121: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+121: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+120: Tunnel closed
+122: GET http://google.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:21 2020
+122: Requesting "GET http://google.com/ HTTP/1.1" from google.com
+122: Received "HTTP/1.1 301 Moved Permanently" fromgoogle.com
+123: GET http://www.google.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:35 2020
+123: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+123: Received "HTTP/1.1 302 Found" fromwww.google.com
+124: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:45 2020
+124: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+124: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+125: GET http://www.google.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:48 2020
+125: Requesting "GET http://www.google.com/ HTTP/1.1" from www.google.com
+125: Received "HTTP/1.1 302 Found" fromwww.google.com
+126: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:50 2020
+126: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+126: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+127: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:28:55 2020
+127: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+127: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+128: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:00 2020
+128: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+128: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+129: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:05 2020
+129: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+129: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+130: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:10 2020
+130: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+130: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+131: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:28 2020
+132: CONNECT www.youtube.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:28 2020
+132: Responding "200 OK"
+131: Responding "200 OK"
+133: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:28 2020
+133: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+133: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+134: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:28 2020
+134: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+134: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+135: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:31 2020
+135: Responding "200 OK"
+136: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:31 2020
+137: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:31 2020
+136: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+137: Responding "200 OK"
+136: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+138: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:31 2020
+138: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+138: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+141: CONNECT fonts.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:31 2020
+141: Responding "200 OK"
+145: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:31 2020
+145: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+145: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+140: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+144: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+142: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+143: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+139: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+152: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+153: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+154: CONNECT accounts.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+142: Responding "200 OK"
+143: Responding "200 OK"
+139: Responding "200 OK"
+140: Responding "200 OK"
+144: Responding "200 OK"
+152: Responding "200 OK"
+153: Responding "200 OK"
+154: Responding "200 OK"
+155: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+159: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+158: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+157: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+156: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:33 2020
+159: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+158: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+157: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+156: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+155: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+159: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+158: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+157: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+156: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+155: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+160: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:34 2020
+160: Responding "200 OK"
+161: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:34 2020
+161: Responding "200 OK"
+162: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:34 2020
+162: Responding "200 OK"
+163: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:34 2020
+163: Responding "200 OK"
+164: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:34 2020
+164: Responding "200 OK"
+165: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:35 2020
+165: Responding "200 OK"
+166: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:35 2020
+167: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:35 2020
+144: Tunnel closed
+142: Tunnel closed
+139: Tunnel closed
+143: Tunnel closed
+168: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:35 2020
+170: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:35 2020
+169: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:35 2020
+166: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+167: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+170: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+169: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+168: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+166: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+167: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+170: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+169: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+168: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+171: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:37 2020
+172: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:37 2020
+172: Responding "200 OK"
+171: Responding "200 OK"
+100: CONNECT www.youtube.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:29:57 2020
+100: Responding "200 OK"
+101: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:17 2020
+101: Responding "200 OK"
+102: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:17 2020
+102: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+102: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+103: CONNECT ssl.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:19 2020
+103: Responding "200 OK"
+104: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:19 2020
+104: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+104: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+105: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:20 2020
+105: Responding "200 OK"
+106: CONNECT apis.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:20 2020
+106: Responding "200 OK"
+107: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:20 2020
+107: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+107: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+108: CONNECT adservice.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:22 2020
+108: Responding "200 OK"
+109: CONNECT ogs.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:22 2020
+109: Responding "200 OK"
+110: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:22 2020
+110: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+111: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:22 2020
+110: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+111: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+111: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+112: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:24 2020
+112: Responding "200 OK"
+113: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:24 2020
+113: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+113: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+114: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:29 2020
+115: CONNECT www.facebook.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:29 2020
+115: Responding "200 OK"
+116: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:29 2020
+114: Responding "200 OK"
+116: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+116: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+117: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:29 2020
+117: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+117: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+118: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+119: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+120: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+121: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+122: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+123: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+118: Responding "200 OK"
+119: Responding "200 OK"
+120: Responding "200 OK"
+121: Responding "200 OK"
+122: Responding "200 OK"
+123: Responding "200 OK"
+119: Tunnel closed
+127: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+120: Tunnel closed
+122: Tunnel closed
+121: Tunnel closed
+127: Responding "200 OK"
+123: Tunnel closed
+126: CONNECT facebook.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+124: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+125: CONNECT static.xx.fbcdn.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+125: Responding "200 OK"
+124: Responding "200 OK"
+126: Responding "200 OK"
+128: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:32 2020
+128: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+128: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+124: Tunnel closed
+129: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+129: Responding "200 OK"
+130: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+130: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+130: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+131: CONNECT cx.atdmt.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+132: CONNECT fbsbx.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+131: Responding "200 OK"
+133: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+133: Responding "200 OK"
+132: Responding "200 OK"
+134: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+134: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+135: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+136: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:36 2020
+134: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+135: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+136: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+135: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+136: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+133: Tunnel closed
+137: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:45 2020
+137: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+137: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+138: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:50 2020
+138: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+138: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+139: GET http://httpbin.org/forms/post HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:54 2020
+139: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from httpbin.org
+139: Received "HTTP/1.1 200 OK" fromhttpbin.org
+140: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:30:55 2020
+140: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+140: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+141: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:00 2020
+141: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+141: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+142: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:01 2020
+142: Responding "200 OK"
+143: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:01 2020
+143: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+143: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+144: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:05 2020
+144: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+144: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+145: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:10 2020
+145: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+145: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+146: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:45 2020
+146: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+146: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+147: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:50 2020
+147: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+147: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+148: GET http://httpbin.org/forms/post HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:54 2020
+148: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from httpbin.org
+148: Received "HTTP/1.1 200 OK" fromhttpbin.org
+139: Responding "HTTP/1.1 200 OK"
+149: GET http://httpbin.org/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:54 2020
+149: Requesting "GET http://httpbin.org/favicon.ico HTTP/1.1" from httpbin.org
+149: Received "HTTP/1.1 404 NOT FOUND" fromhttpbin.org
+150: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:31:55 2020
+150: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+150: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+151: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:00 2020
+151: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+151: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+152: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:32:02 2020
+152: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+152: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+114: Tunnel closed
+142: Tunnel closed
+153: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:05 2020
+153: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+153: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+154: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:32:07 2020
+154: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+154: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+155: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:10 2020
+155: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+155: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+156: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:32:12 2020
+156: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+156: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+157: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:32:17 2020
+157: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+157: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+158: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:32:22 2020
+158: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+158: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+159: POST http://httpbin.org/post HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:23 2020
+159: Requesting "POST http://httpbin.org/post HTTP/1.1" from httpbin.org
+159: Received "HTTP/1.1 200 OK" fromhttpbin.org
+160: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 15:32:27 2020
+160: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+160: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+161: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:30 2020
+161: Responding "200 OK"
+162: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:31 2020
+162: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+162: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+116: Responding "HTTP/1.1 200 OK"
+117: Responding "HTTP/1.1 200 OK"
+163: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:45 2020
+163: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+163: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+100: Tunnel closed
+164: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:50 2020
+164: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+164: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+134: Responding "HTTP/1.1 200 OK"
+136: Responding "HTTP/1.1 200 OK"
+148: Responding "HTTP/1.1 200 OK"
+149: Responding "HTTP/1.1 404 NOT FOUND"
+165: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:32:55 2020
+165: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+165: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+166: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:00 2020
+166: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+166: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+167: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:05 2020
+167: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+167: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+168: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:10 2020
+168: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+168: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+103: Tunnel closed
+106: Tunnel closed
+143: Responding "HTTP/1.1 200 OK"
+109: Tunnel closed
+108: Tunnel closed
+112: Tunnel closed
+126: Tunnel closed
+159: Responding "HTTP/1.1 200 OK"
+127: Tunnel closed
+118: Tunnel closed
+131: Tunnel closed
+129: Tunnel closed
+125: Tunnel closed
+105: Tunnel closed
+101: Tunnel closed
+115: Tunnel closed
+132: Tunnel closed
+161: Tunnel closed
+169: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:40 2020
+170: CONNECT www.youtube.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:40 2020
+170: Responding "200 OK"
+169: Responding "200 OK"
+171: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:41 2020
+171: Responding "200 OK"
+172: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:41 2020
+172: Responding "200 OK"
+172: Tunnel closed
+174: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:41 2020
+175: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:41 2020
+174: Responding "200 OK"
+175: Responding "200 OK"
+173: CONNECT fonts.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:42 2020
+173: Responding "200 OK"
+173: Tunnel closed
+176: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:42 2020
+176: Responding "200 OK"
+177: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:43 2020
+177: Responding "200 OK"
+178: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:43 2020
+179: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:43 2020
+178: Responding "200 OK"
+179: Responding "200 OK"
+180: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:43 2020
+180: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+180: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+181: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:45 2020
+181: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+181: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+182: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 15:33:50 2020
+182: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+182: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com

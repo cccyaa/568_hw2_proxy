@@ -12,6 +12,8 @@
 #include <arpa/inet.h>
 #include <string>
 #include <vector>
+#include "parseBuffer.hpp"
+#include "logger.hpp"
 using namespace std;
 
 class proxyServerCONNECT {

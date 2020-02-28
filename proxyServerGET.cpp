@@ -12,8 +12,8 @@
 #include <arpa/inet.h>
 #include <string>
 #include <vector>
-#include "parseBuffer.cpp"
-#include "logger.cpp"
+#include "logger.hpp"
+#include "parseBuffer.hpp"
 using namespace std;
 
 
