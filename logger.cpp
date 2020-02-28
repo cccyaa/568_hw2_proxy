@@ -47,7 +47,40 @@ public:
 		write(log);
 	}
 
-			
+	void notInCache(){
+		string log=uniqueID+": not in cache\n";
+		write(log);
+	}
+
+	void expireCache(string EXPIRETIME){
+		string log=uniqueID+": in cache, but expired at "+EXPIRETIME+"\n";
+		write(log);
+	}
+
+	void revalidationCache(){
+		string log=uniqueID+": in cache, but requires validation\n";
+		write(log);
+	}
+
+	void validCache(){
+		string log=uniqueID+": in cache, valid\n";
+		write(log);
+	}
+
+	void errorMessage(string message){
+		string log=uniqueID+": ERROR "+message+"\n";
+		write(log);
+	}
+
+	void noteMessage(string message){
+		string log=uniqueID+": NOTE "+message+"\n";
+		write(log);
+	}
+
+	void warningMessage(string message){
+		string log=uniqueID+": WARNING "+message+"\n";
+		write(log);
+	}
 
 	void tunnelClose(){
 		string log=uniqueID+": Tunnel closed"+"\n";
