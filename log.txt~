@@ -1,0 +1,78 @@
+100: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:51 2020
+100: Responding "200 OK"
+102: POST http://ocsp.godaddy.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:51 2020
+102: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+102: Received "HTTP/1.1 200 OK" fromocsp.godaddy.com
+101: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+103: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+104: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+105: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+106: CONNECT piazza.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+101: Responding "200 OK"
+103: Responding "200 OK"
+104: Responding "200 OK"
+105: Responding "200 OK"
+106: Responding "200 OK"
+109: POST http://ocsp.godaddy.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+108: POST http://ocsp.godaddy.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+107: CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+108: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+109: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+110: POST http://ocsp.godaddy.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+107: Responding "200 OK"
+111: POST http://ocsp.godaddy.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+110: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+112: POST http://ocsp.godaddy.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:53 2020
+111: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+112: Requesting "POST http://ocsp.godaddy.com/ HTTP/1.1" from ocsp.godaddy.com
+108: Received "HTTP/1.1 200 OK" fromocsp.godaddy.com
+109: Received "HTTP/1.1 200 OK" fromocsp.godaddy.com
+110: Received "HTTP/1.1 200 OK" fromocsp.godaddy.com
+111: Received "HTTP/1.1 200 OK" fromocsp.godaddy.com
+112: Received "HTTP/1.1 200 OK" fromocsp.godaddy.com
+113: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+114: CONNECT www.googletagmanager.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+114: Responding "200 OK"
+115: CONNECT www.youtube-nocookie.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+115: Responding "200 OK"
+116: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+116: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+113: Responding "200 OK"
+116: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+117: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+117: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+117: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+118: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+119: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+119: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+118: Responding "200 OK"
+119: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+120: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+120: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+120: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+121: CONNECT connect.facebook.net:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+121: Responding "200 OK"
+122: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:55 2020
+122: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+122: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+121: Tunnel closed
+123: CONNECT dvngeac8rg9mb.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:57 2020
+124: CONNECT dvngeac8rg9mb.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:57 2020
+126: CONNECT dvngeac8rg9mb.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:57 2020
+125: CONNECT dvngeac8rg9mb.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:57 2020
+127: CONNECT dvngeac8rg9mb.cloudfront.net:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:57 2020
+127: Responding "200 OK"
+123: Responding "200 OK"
+126: Responding "200 OK"
+124: Responding "200 OK"
+125: Responding "200 OK"
+128: CONNECT www.google-analytics.com:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:57 2020
+128: Responding "200 OK"
+129: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:55:57 2020
+129: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+129: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+130: CONNECT stats.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:56:00 2020
+130: Responding "200 OK"
+131: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Thu Feb 27 20:56:00 2020
+131: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+131: Received "HTTP/1.1 200 OK" fromocsp.pki.goog

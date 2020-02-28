@@ -18,12 +18,23 @@ using namespace std;
 
 class proxyMain{
   int proxySFD;
+  int numOfRequests;
 public:
   proxyMain(){
     proxySFD=getProxySFD();
+    numOfRequests=100;
     //if (proxySFD==-1){
       
     //}
+  }
+
+  void sockaddrToIP(struct sockaddr * sa, char * s) {
+    if (sa->sa_family == AF_INET) {
+      inet_ntop(AF_INET, &(((struct sockaddr_in *)sa)->sin_addr), s, INET6_ADDRSTRLEN);
+    }
+    else {
+      inet_ntop(AF_INET6, &(((struct sockaddr_in6 *)sa)->sin6_addr), s, INET6_ADDRSTRLEN);
+    }
   }
 
   int mainThread(){
@@ -33,19 +44,22 @@ public:
       socklen_t socket_addr_len = sizeof(socket_addr);
       int clientSFD;
       clientSFD = accept(proxySFD, (struct sockaddr *)&socket_addr, &socket_addr_len);
+      char ip[INET6_ADDRSTRLEN];
+      sockaddrToIP((struct sockaddr *)&socket_addr, ip);
+      string clientIP=ip;
       cout << "**conected to client**" << endl;
 
       if (clientSFD == -1) {
       	cerr << "Error: cannot accept connection on socket" << endl;
       	return -1;
       }
-      thread newthread(newThread,clientSFD);
+      thread newthread(newThread,clientSFD,numOfRequests++,clientIP);
       newthread.detach();
     }
   }
 
-  static void newThread(int clientSFD){
-    cout<<"inside new thread"<<endl;
+  static void newThread(int clientSFD,int uniqueID,string clientIP){
+    cout<<"inside a new thread"<<endl;
     char * buffer=new char[65535];
     int numbytes;
     if((numbytes=recv(clientSFD,buffer,65535,0))==-1){
@@ -55,19 +69,35 @@ public:
     if(numbytes==0){
       exit(1);
     }
+    logger log(uniqueID);
     parseBuffer pb(buffer);
     string hostname=pb.getHostName();
     string requestType=pb.getRequestType();
-    std::cout<<"***requestType:"<<requestType<<"***"<<endl;
+    string requestLine=pb.getFirstLine();
+    //get client address
+    // struct sockaddr addr;
+    // socklen_t addrlen;
+    // int res;
+    // res=getpeername(clientSFD, &addr, &addrlen); 
+    // if(res==-1){
+    //   cerr<<"Error: failed to get client's infomation";
+    // }
+    // string clientAddr=addr.sa_data;
+    log.receiveNewRequest(clientIP,requestLine);
+    //std::cout<<"***requestType:"<<requestType<<"***"<<endl;
     if (requestType=="GET"||requestType=="POST"){
-        cout<<"***inside of GET***"<<endl;
-        proxyServerGET ps(hostname,buffer, numbytes,clientSFD);
+        //cout<<"***inside of GET***"<<endl;
+        //client address??
+        //log receive new request
+        //log.receiveNewRequest(clientAddr,requestLine);
+        proxyServerGET ps(hostname,buffer, numbytes,clientSFD,&log);
         ps.run();
     }else if(requestType=="CONNECT"){
-        proxyServerCONNECT ps(hostname,buffer,numbytes,clientSFD);
+        //log.receiveNewRequest(clientAddr,requestLine);
+        proxyServerCONNECT ps(hostname,buffer,numbytes,clientSFD,&log);
         ps.run(); 
     }
-    
+    //delete[] buffer;
   }
     
   int getProxySFD(){

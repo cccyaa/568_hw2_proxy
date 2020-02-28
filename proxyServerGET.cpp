@@ -13,6 +13,7 @@
 #include <string>
 #include <vector>
 #include "parseBuffer.cpp"
+#include "logger.cpp"
 using namespace std;
 
 
@@ -25,10 +26,11 @@ private:
   size_t responseLen;
   int clientSFD;
   int serverSFD;
+  logger* log;
 
 public:
-  proxyServerGET(string hn, char * buf, size_t rl,int csfd): \
-  hostname(hn), request(buf), requestLen(rl),clientSFD(csfd) {
+  proxyServerGET(string hn, char * buf, size_t rl,int csfd,logger * lg): \
+  hostname(hn), request(buf), requestLen(rl),clientSFD(csfd),log(lg) {
     response = nullptr;
   }
 
@@ -91,6 +93,8 @@ public:
       exit(1);
     }
     cout<<"***send request to server***"<<endl;
+    //log request from server
+    log->requestRequest(hostname);
     return 0;
   }
 
@@ -103,21 +107,25 @@ public:
     }
     cout<<"***received response from server***"<<endl;
     tmp[firstLen] = '\0';
-
+   
     // for test
-    cout << "*****first recv***** " <<endl<< tmp <<endl<< "**first receive end**" << endl;
-    cout << "***first receive length: " << firstLen <<"***"<< endl;
+    //cout << "*****first recv***** " <<endl<< tmp <<endl<< "**first receive end**" << endl;
+    //cout << "***first receive length: " << firstLen <<"***"<< endl;
     
     //string firstResponse=tmp;
     parseBuffer pb(tmp);
     long bodyLen=pb.getBodyLen();
     long headLen=pb.getHeadLen();
     long responseLen=bodyLen+headLen;
+    string responseLine=pb.getFirstLine();
+     //log: receive from server
+    log->receiveResponse(hostname,responseLine);
 
-    cout << "***headLen: " << headLen <<"***"<< endl;
+
+    //cout << "***headLen: " << headLen <<"***"<< endl;
 
     long leftLen = bodyLen - (firstLen - headLen);
-    cout << "***leftLen: " << leftLen <<"***"<< endl;
+    //cout << "***leftLen: " << leftLen <<"***"<< endl;
 
     leftLen = bodyLen + headLen;
     response = new char[leftLen + 1];
@@ -132,7 +140,7 @@ public:
     int count = 0;
     while (leftLen > 0 && (recvByte = recv(serverSFD, tmpP, leftLen, 0)) > 0) {
       count ++;
-      cout << "recvByte " << count <<  ": " << recvByte << endl;
+      //cout << "recvByte " << count <<  ": " << recvByte << endl;
       tmpP += recvByte;
       leftLen -= recvByte;
     }
@@ -142,13 +150,16 @@ public:
     tmpP[0] = '\0';
 
     // for test
-    cout << "***response length: " << strlen(response) <<"***"<< endl;
+    //cout << "***response length: " << strlen(response) <<"***"<< endl;
 
     int sr2;
     if ((sr2 = send(clientSFD, response, responseLen, 0)) == -1) {
       perror("Error: failed to send reponse to client");
       exit(1);
     }
+    //log:respond
+    //not print?????
+    log->respondResponse(responseLine);
   }
 
   // void sendToClient(){

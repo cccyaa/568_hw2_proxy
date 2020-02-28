@@ -16,12 +16,6 @@ using namespace std;
 
 class proxyServerCONNECT {
 private:
-  // string hostServer;
-  // char * bufToServer;
-  // size_t endIdx;
-  // size_t httpResSize;
-  // string portNum;
-  // int clientFD;
   string hostname;
   char * request;
   size_t requestLen;
@@ -29,9 +23,10 @@ private:
   size_t responseLen;
   int clientSFD;
   int serverSFD;
+  logger* log;
 public:
-  proxyServerCONNECT(string hn, char * buf, size_t rl,int csfd): \
-  hostname(hn), request(buf), requestLen(rl),clientSFD(csfd) {
+  proxyServerCONNECT(string hn, char * buf, size_t rl,int csfd,logger * lg): \
+  hostname(hn), request(buf), requestLen(rl),clientSFD(csfd) ,log(lg){
     size_t colon = hostname.find(":");
     hostname = hostname.substr(0, colon);
     response = nullptr;
@@ -47,7 +42,6 @@ public:
   int connectToServer(){
     struct addrinfo hints, *servinfo, *p;
     char s[INET6_ADDRSTRLEN];
-
     memset(&hints, 0, sizeof hints);
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
@@ -91,6 +85,9 @@ public:
   void setTunnel(){
     const char * okMsg = "200 OK\r\n";
     send(clientSFD, okMsg, strlen(okMsg), 0);
+    log->respondResponse("200 OK");
+
+
     while (true) {
       fd_set fdsets;
       FD_ZERO(&fdsets);
@@ -104,9 +101,9 @@ public:
       int recvRes = recv(FDselected, buff, 65535, 0);
 
       // for test
-      string recvfrom = (FDselected == clientSFD) ? "client" : "server";
-      cout << "This time receive from " << recvfrom << endl;
-      cout << "recvRes: " << recvRes << endl;
+      //string recvfrom = (FDselected == clientSFD) ? "client" : "server";
+      //cout << "This time receive from " << recvfrom << endl;
+      //cout << "recvRes: " << recvRes << endl;
 
       if(recvRes == 0) {
         close(clientSFD);
@@ -118,7 +115,8 @@ public:
       // temp compromise
       //break;  
     }
-    cout << "***Connection ends***" << endl;
+    //cout << "***Connection ends***" << endl;
+    log->tunnelClose();
   }
 
   void run(){

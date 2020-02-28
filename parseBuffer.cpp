@@ -18,6 +18,12 @@ public:
     string ret = total.substr(0, firstBlank);
     return ret;
   }
+  
+  string getFirstLine(){
+    size_t idx=total.find_first_of("\r\n");
+    string firstLine=total.substr(0,idx);
+    return firstLine;
+  }
 
   string getHostName(){
     size_t hostIdx = total.find("Host:");
