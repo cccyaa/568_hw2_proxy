@@ -98,6 +98,12 @@ public:
     return 0;
   }
 
+  void addCharArray(char * ori, int length,vector<char>& res){
+      for (int i=0;i<length;i++){
+        res.push_back(ori[i]);
+      }
+  }
+
   int receiveFromServer(){
     int firstLen;
     char * tmp = new char[65535];
@@ -106,61 +112,130 @@ public:
       exit(1);
     }
     cout<<"***received response from server***"<<endl;
-    tmp[firstLen] = '\0';
-   
-    // for test
-    //cout << "*****first recv***** " <<endl<< tmp <<endl<< "**first receive end**" << endl;
-    //cout << "***first receive length: " << firstLen <<"***"<< endl;
-    
-    //string firstResponse=tmp;
+    //tmp[firstLen] = '\0';
     parseBuffer pb(tmp);
-    long bodyLen=pb.getBodyLen();
-    long headLen=pb.getHeadLen();
-    long responseLen=bodyLen+headLen;
     string responseLine=pb.getFirstLine();
-     //log: receive from server
     log->receiveResponse(hostname,responseLine);
+    //check chunk 
+    if(pb.ifChunk()){
+      cout<<"it is a chunk situation"<<endl;
+      vector<char> res;
+      addCharArray(tmp,firstLen,res);
+      delete[] tmp;
+   
+      int count=2;//for test
+      while(true){
+        cout<<"inside chunk loop"<<endl;
+        char * tmpP=new char[65535];
+        int recvByte;
+        if((recvByte=recv(serverSFD,tmpP,65535,0))==-1){
+            perror("Error: failed to get response from server[chunk]");
+            exit(1);
+        }
+        cout<<"recv "<<count<<" response from server"<<endl;
+        addCharArray(tmpP,recvByte,res);
+        cout<<"recvbytes:"<<recvByte<<endl;
+        count++;
+        if (tmpP[0]=='0'){
+          delete[] tmpP;
+          break;
+        }
+        delete[] tmpP;
+      }
+      long responseLen=res.size();
 
+      char *response = new char[responseLen];
+      for(int i=0;i<responseLen;i++){
+          response[i]=res[i]; 
+      }
+      int sr2;
+      if ((sr2 = send(clientSFD, response, responseLen, 0)) == -1) {
+        perror("Error: failed to send reponse to client");
+        exit(1);
+      }
+      delete[] response;
 
-    //cout << "***headLen: " << headLen <<"***"<< endl;
+    }else{
+      long bodyLen=pb.getBodyLen();
+      long headLen=pb.getHeadLen();
+      long responseLen=bodyLen+headLen;
+      
 
-    long leftLen = bodyLen - (firstLen - headLen);
-    //cout << "***leftLen: " << leftLen <<"***"<< endl;
+      long leftLen = bodyLen - (firstLen - headLen);
+      leftLen = bodyLen + headLen;
+      response = new char[leftLen + 1];
+      for (int i = 0 ; i < firstLen; ++i) {
+        response[i] = tmp[i];
+      }
+      free(tmp);
+      int recvByte;
+      char * tmpP = response + firstLen;   // tmpP is the start point for recving remaining content
 
-    leftLen = bodyLen + headLen;
-    response = new char[leftLen + 1];
-    for (int i = 0 ; i < firstLen; ++i) {
-      response[i] = tmp[i];
-    }
-    free(tmp);
-
-    int recvByte;
-    char * tmpP = response + firstLen;   // tmpP is the start point for recving remaining content
-
-    int count = 0;
-    while (leftLen > 0 && (recvByte = recv(serverSFD, tmpP, leftLen, 0)) > 0) {
-      count ++;
-      //cout << "recvByte " << count <<  ": " << recvByte << endl;
-      tmpP += recvByte;
-      leftLen -= recvByte;
-    }
-    if (leftLen==0){
+      int count = 0;
+      while (leftLen > 0 && (recvByte = recv(serverSFD, tmpP, leftLen, 0)) > 0) {
+        count ++;
+        tmpP += recvByte;
+        leftLen -= recvByte;
+      }
+      if (leftLen==0){
         return 0;
+      }
+      tmpP[0] = '\0';
+      int sr2;
+      if ((sr2 = send(clientSFD, response, responseLen, 0)) == -1) {
+        perror("Error: failed to send reponse to client");
+        exit(1);
+      }
     }
-    tmpP[0] = '\0';
-
-    // for test
-    //cout << "***response length: " << strlen(response) <<"***"<< endl;
-
-    int sr2;
-    if ((sr2 = send(clientSFD, response, responseLen, 0)) == -1) {
-      perror("Error: failed to send reponse to client");
-      exit(1);
+      log->respondResponse(responseLine);
     }
-    //log:respond
-    //not print?????
-    log->respondResponse(responseLine);
-  }
+
+    // long bodyLen=pb.getBodyLen();
+    // long headLen=pb.getHeadLen();
+    // long responseLen=bodyLen+headLen;
+    // string responseLine=pb.getFirstLine();
+    //  //log: receive from server
+    // log->receiveResponse(hostname,responseLine);
+
+
+    // //cout << "***headLen: " << headLen <<"***"<< endl;
+
+    // long leftLen = bodyLen - (firstLen - headLen);
+    // //cout << "***leftLen: " << leftLen <<"***"<< endl;
+
+    // leftLen = bodyLen + headLen;
+    // response = new char[leftLen + 1];
+    // for (int i = 0 ; i < firstLen; ++i) {
+    //   response[i] = tmp[i];
+    // }
+    // free(tmp);
+
+    // int recvByte;
+    // char * tmpP = response + firstLen;   // tmpP is the start point for recving remaining content
+
+    // int count = 0;
+    // while (leftLen > 0 && (recvByte = recv(serverSFD, tmpP, leftLen, 0)) > 0) {
+    //   count ++;
+    //   //cout << "recvByte " << count <<  ": " << recvByte << endl;
+    //   tmpP += recvByte;
+    //   leftLen -= recvByte;
+    // }
+    // if (leftLen==0){
+    //     return 0;
+    // }
+    // tmpP[0] = '\0';
+
+    // // for test
+    // //cout << "***response length: " << strlen(response) <<"***"<< endl;
+
+    // int sr2;
+    // if ((sr2 = send(clientSFD, response, responseLen, 0)) == -1) {
+    //   perror("Error: failed to send reponse to client");
+    //   exit(1);
+    // }
+    // //log:respond
+    // //not print?????
+    // log->respondResponse(responseLine);
 
   // void sendToClient(){
   //   cout<<"***inside of proxyServerGET.sendToClient()***"<<endl;

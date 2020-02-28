@@ -13,6 +13,8 @@ public:
     //cout << "**End of HTTP request**" << endl;
   }
 
+
+
   string getRequestType(){
     size_t firstBlank = total.find_first_of(" ");
     string ret = total.substr(0, firstBlank);
@@ -33,6 +35,14 @@ public:
     return hostName;
   }
 
+  bool ifChunk(){
+    size_t idx1 = total.find("Content-Length");
+    if (idx1==-1){
+      return true;
+    }else{
+      return false;
+    }
+  }
   long getBodyLen(){
     size_t idx1 = total.find("Content-Length");
     size_t idx2 = total.find_first_of("\r\n", idx1);

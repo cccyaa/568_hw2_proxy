@@ -47,6 +47,8 @@ public:
 		write(log);
 	}
 
+			
+
 	void tunnelClose(){
 		string log=uniqueID+": Tunnel closed"+"\n";
 		write(log);
