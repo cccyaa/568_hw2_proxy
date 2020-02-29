@@ -11,7 +11,6 @@
 #include <thread>
 #include <mutex>
 #include "proxyServerGET.cpp" 
-#include "proxyServerGETold.hpp" 
 #include "proxyServerCONNECT.cpp"
 #include "proxyServerPOST.cpp"
 #include "parseBuffer.hpp"
