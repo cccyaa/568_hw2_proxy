@@ -18,7 +18,7 @@ public:
 
 	void write(string log){
 		ofstream myfile;
-		myfile.open("log.txt",ios::app);
+		myfile.open("/var/log/erss/proxy.log",ios::app);
 		myfile<<log;
 		myfile.close();
 	}

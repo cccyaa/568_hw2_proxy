@@ -1,0 +1,748 @@
+100: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:44 2020
+101: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:44 2020
+100: Responding "200 OK"
+101: Responding "200 OK"
+102: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:44 2020
+103: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:44 2020
+102: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+103: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+103: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+102: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+104: GET http://people.duke.edu/~bmr23/ece568 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+104: not in cache
+104: Requesting "GET http://people.duke.edu/~bmr23/ece568 HTTP/1.1" from people.duke.edu
+104: Received "HTTP/1.1 301 Moved Permanently" frompeople.duke.edu
+104: Responding "HTTP/1.1 301 Moved Permanently"
+104: NOTE cache control: 
+104: NOTE add to cache
+105: GET http://people.duke.edu/~bmr23/ece568/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+105: not in cache
+105: Requesting "GET http://people.duke.edu/~bmr23/ece568/ HTTP/1.1" from people.duke.edu
+105: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+105: Responding "HTTP/1.1 200 OK"
+105: NOTE cache control: 
+105: NOTE add to cache
+106: GET http://people.duke.edu/icons/blank.gif HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+106: not in cache
+107: GET http://people.duke.edu/icons/back.gif HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+107: not in cache
+108: GET http://people.duke.edu/icons/text.gif HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+108: not in cache
+106: Requesting "GET http://people.duke.edu/icons/blank.gif HTTP/1.1" from people.duke.edu
+107: Requesting "GET http://people.duke.edu/icons/back.gif HTTP/1.1" from people.duke.edu
+110: GET http://people.duke.edu/icons/layout.gif HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+110: not in cache
+109: GET http://people.duke.edu/icons/folder.gif HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+109: not in cache
+108: Requesting "GET http://people.duke.edu/icons/text.gif HTTP/1.1" from people.duke.edu
+106: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+106: Responding "HTTP/1.1 200 OK"
+106: NOTE cache control: 
+106: NOTE add to cache
+107: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+107: Responding "HTTP/1.1 200 OK"
+107: NOTE cache control: 
+107: NOTE add to cache
+110: Requesting "GET http://people.duke.edu/icons/layout.gif HTTP/1.1" from people.duke.edu
+108: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+108: Responding "HTTP/1.1 200 OK"
+108: NOTE cache control: 
+108: NOTE add to cache
+109: Requesting "GET http://people.duke.edu/icons/folder.gif HTTP/1.1" from people.duke.edu
+110: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+110: Responding "HTTP/1.1 200 OK"
+110: NOTE cache control: 
+110: NOTE add to cache
+109: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+109: Responding "HTTP/1.1 200 OK"
+109: NOTE cache control: 
+109: NOTE add to cache
+111: GET http://people.duke.edu/favicon.ico HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:47 2020
+111: not in cache
+111: Requesting "GET http://people.duke.edu/favicon.ico HTTP/1.1" from people.duke.edu
+111: Received "HTTP/1.1 404 Not Found" frompeople.duke.edu
+111: Responding "HTTP/1.1 404 Not Found"
+111: NOTE cache control: 
+111: NOTE add to cache
+112: GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:50 2020
+112: not in cache
+112: Requesting "GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1" from people.duke.edu
+112: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+112: Responding "HTTP/1.1 200 OK"
+112: NOTE cache control: 
+112: NOTE add to cache
+113: GET http://people.duke.edu/~bmr23/style.css HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:50 2020
+113: not in cache
+113: Requesting "GET http://people.duke.edu/~bmr23/style.css HTTP/1.1" from people.duke.edu
+113: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+113: Responding "HTTP/1.1 200 OK"
+113: NOTE cache control: 
+113: NOTE add to cache
+114: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_02_Protocols.pdf HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:54 2020
+114: not in cache
+114: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_02_Protocols.pdf HTTP/1.1" from people.duke.edu
+114: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+115: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:57 2020
+115: Responding "200 OK"
+115: Tunnel closed
+116: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:57 2020
+116: Responding "200 OK"
+117: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:57 2020
+117: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+117: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+116: Tunnel closed
+118: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:38:57 2020
+118: Responding "200 OK"
+118: Tunnel closed
+119: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:05 2020
+119: Responding "200 OK"
+120: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:05 2020
+120: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+120: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+121: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_02_Protocols.pdf HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:08 2020
+121: not in cache
+121: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_02_Protocols.pdf HTTP/1.1" from people.duke.edu
+121: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+122: CONNECT ssl.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:08 2020
+122: Responding "200 OK"
+123: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:08 2020
+123: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+123: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+124: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:08 2020
+124: Responding "200 OK"
+125: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:08 2020
+125: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+125: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+126: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_02_Protocols.pdf HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:08 2020
+126: not in cache
+126: Requesting "GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_02_Protocols.pdf HTTP/1.1" from people.duke.edu
+126: Received "HTTP/1.1 206 Partial Content" frompeople.duke.edu
+126: Responding "HTTP/1.1 206 Partial Content"
+126: NOTE cache control: 
+126: NOTE add to cache
+127: GET http://people.duke.edu/~bmr23/ece568/slides/ERSS_02_Protocols.pdf HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:08 2020
+127: in cache, valid
+121: Responding "HTTP/1.1 206 Partial Content"
+121: NOTE cache control: 
+121: NOTE add to cache
+128: CONNECT apis.google.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:10 2020
+128: Responding "200 OK"
+129: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:11 2020
+129: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+129: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+130: CONNECT adservice.google.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:13 2020
+130: Responding "200 OK"
+131: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:13 2020
+131: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+131: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+132: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:15 2020
+132: Responding "200 OK"
+133: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:15 2020
+133: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+133: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+114: Responding "HTTP/1.1 200 OK"
+114: NOTE cache control: 
+114: NOTE add to cache
+134: CONNECT www.1point3acres.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:21 2020
+134: Responding "200 OK"
+135: CONNECT wx3.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+136: CONNECT wx4.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+139: CONNECT oss.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+137: CONNECT wx4.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+138: CONNECT pic4.zhimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+140: CONNECT wx4.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+141: CONNECT images.squarespace-cdn.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+142: CONNECT wx3.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+143: CONNECT wx4.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+144: CONNECT oss.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+145: CONNECT wx3.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+141: Responding "200 OK"
+146: CONNECT user-images.githubusercontent.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+147: CONNECT oss.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+152: CONNECT upload.wikimedia.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+146: Responding "200 OK"
+148: CONNECT oss.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+162: CONNECT avatar.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+160: CONNECT avatar.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+152: Responding "200 OK"
+150: CONNECT oss.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+149: CONNECT oss.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+159: CONNECT avatar.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+161: CONNECT avatar.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+138: Responding "200 OK"
+153: CONNECT upload.wikimedia.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+165: CONNECT www.dwin2.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+151: CONNECT upload.wikimedia.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+154: CONNECT cdn.worldvectorlogo.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+157: CONNECT cdn.pixabay.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+158: CONNECT n.sinaimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+151: Responding "200 OK"
+164: CONNECT avatar.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:22 2020
+157: Responding "200 OK"
+148: Responding "200 OK"
+144: Responding "200 OK"
+163: CONNECT avatar.1point3acres.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:23 2020
+153: Responding "200 OK"
+165: Responding "200 OK"
+154: Responding "200 OK"
+160: Responding "200 OK"
+162: Responding "200 OK"
+161: Responding "200 OK"
+164: Responding "200 OK"
+166: POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:23 2020
+166: Requesting "POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1" from ocsp.int-x3.letsencrypt.org
+150: Responding "200 OK"
+147: Responding "200 OK"
+153: Tunnel closed
+166: Received "HTTP/1.1 200 OK" fromocsp.int-x3.letsencrypt.org
+151: Tunnel closed
+167: POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:23 2020
+168: POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:23 2020
+167: Requesting "POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1" from ocsp.int-x3.letsencrypt.org
+169: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:23 2020
+167: Received "HTTP/1.1 200 OK" fromocsp.int-x3.letsencrypt.org
+168: Requesting "POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1" from ocsp.int-x3.letsencrypt.org
+169: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+170: POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:23 2020
+169: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+168: Received "HTTP/1.1 200 OK" fromocsp.int-x3.letsencrypt.org
+170: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+170: Received "HTTP/1.1 200 OK" fromocsp.sca1b.amazontrust.com
+140: Responding "200 OK"
+136: Responding "200 OK"
+143: Responding "200 OK"
+145: Responding "200 OK"
+139: Responding "200 OK"
+149: Responding "200 OK"
+135: Responding "200 OK"
+137: Responding "200 OK"
+142: Responding "200 OK"
+163: Responding "200 OK"
+159: Responding "200 OK"
+158: Responding "200 OK"
+172: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:25 2020
+171: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:25 2020
+173: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:25 2020
+174: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:25 2020
+164: Tunnel closed
+175: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:25 2020
+148: Tunnel closed
+162: Tunnel closed
+149: Tunnel closed
+139: Tunnel closed
+171: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+174: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+173: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+172: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+175: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+174: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+171: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+173: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+172: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+175: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+161: Tunnel closed
+147: Tunnel closed
+150: Tunnel closed
+176: CONNECT www.google-analytics.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:26 2020
+176: Responding "200 OK"
+177: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:27 2020
+177: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+177: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+163: Tunnel closed
+143: Tunnel closed
+136: Tunnel closed
+137: Tunnel closed
+145: Tunnel closed
+159: Tunnel closed
+135: Tunnel closed
+178: CONNECT stats.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:29 2020
+178: Responding "200 OK"
+179: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:29 2020
+179: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+179: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+180: CONNECT ogs.google.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:37 2020
+180: Responding "200 OK"
+181: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:37 2020
+181: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+181: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+100: Tunnel closed
+101: Tunnel closed
+182: GET http://httpbin.org/forms/post HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:39:58 2020
+182: not in cache
+182: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from httpbin.org
+182: Received "HTTP/1.1 200 OK" fromhttpbin.org
+183: CONNECT sports.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:01 2020
+183: Responding "200 OK"
+138: Tunnel closed
+184: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:03 2020
+184: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+184: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+185: CONNECT mat1.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:05 2020
+186: CONNECT mat1.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:05 2020
+187: CONNECT stdl.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:05 2020
+185: Responding "200 OK"
+193: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+193: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+193: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+188: CONNECT mat1.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+194: CONNECT mat1.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+195: CONNECT mat1.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+196: CONNECT mat1.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+197: CONNECT imgcache.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+198: CONNECT ra.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+199: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+194: Responding "200 OK"
+199: Responding "200 OK"
+188: Responding "200 OK"
+195: Responding "200 OK"
+200: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+200: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+202: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+201: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+200: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+202: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+201: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+201: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+202: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+203: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:06 2020
+203: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+203: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+186: Responding "200 OK"
+196: Responding "200 OK"
+197: Responding "200 OK"
+198: Responding "200 OK"
+187: Responding "200 OK"
+204: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:08 2020
+204: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+186: Tunnel closed
+196: Tunnel closed
+204: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+205: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:08 2020
+206: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:08 2020
+205: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+206: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+205: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+206: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+188: Tunnel closed
+195: Tunnel closed
+194: Tunnel closed
+213: GET http://img1.gtimg.com/sports/pics/hv1/91/97/2147/139633501.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+213: not in cache
+212: GET http://img1.gtimg.com/sports/pics/hv1/240/75/2243/145870440.png HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+212: not in cache
+215: GET http://img1.gtimg.com/sports/pics/hv1/83/97/2147/139633493.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+215: not in cache
+216: GET http://img1.gtimg.com/sports/pics/hv1/84/97/2147/139633494.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+216: not in cache
+214: GET http://img1.gtimg.com/sports/pics/hv1/89/97/2147/139633499.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+214: not in cache
+211: GET http://img1.gtimg.com/sports/pics/hv1/80/97/2147/139633490.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+211: not in cache
+208: GET http://img1.gtimg.com/sports/pics/hv1/78/97/2147/139633488.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+208: not in cache
+210: GET http://img1.gtimg.com/sports/pics/hv1/74/97/2147/139633484.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+209: GET http://img1.gtimg.com/sports/pics/hv1/81/97/2147/139633491.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+210: not in cache
+209: not in cache
+207: GET http://img1.gtimg.com/sports/pics/hv1/75/97/2147/139633485.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+207: not in cache
+217: GET http://img1.gtimg.com/sports/pics/hv1/82/97/2147/139633492.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+217: not in cache
+218: GET http://img1.gtimg.com/sports/pics/hv1/77/97/2147/139633487.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+218: not in cache
+219: GET http://img1.gtimg.com/sports/pics/hv1/87/97/2147/139633497.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+219: not in cache
+220: GET http://img1.gtimg.com/sports/pics/hv1/72/97/2147/139633482.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+220: not in cache
+221: GET http://img1.gtimg.com/sports/pics/hv1/200/22/2246/146051960.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+221: not in cache
+222: GET http://img1.gtimg.com/sports/pics/hv1/79/97/2147/139633489.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+222: not in cache
+213: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/91/97/2147/139633501.jpg HTTP/1.1" from img1.gtimg.com
+210: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/74/97/2147/139633484.jpg HTTP/1.1" from img1.gtimg.com
+217: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/82/97/2147/139633492.jpg HTTP/1.1" from img1.gtimg.com
+223: GET http://img1.gtimg.com/sports/pics/hv1/90/97/2147/139633500.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+223: not in cache
+224: CONNECT qzonestyle.gtimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+225: CONNECT qzonestyle.gtimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+226: CONNECT qzonestyle.gtimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+228: CONNECT v.gdt.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+222: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/79/97/2147/139633489.jpg HTTP/1.1" from img1.gtimg.com
+230: GET http://mat1.gtimg.com/sports/cba/pcbanner2.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+230: not in cache
+223: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/90/97/2147/139633500.jpg HTTP/1.1" from img1.gtimg.com
+231: GET http://img1.gtimg.com/sports/pics/hv1/86/97/2147/139633496.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+231: not in cache
+230: Requesting "GET http://mat1.gtimg.com/sports/cba/pcbanner2.jpg HTTP/1.1" from mat1.gtimg.com
+232: GET http://img1.gtimg.com/sports/pics/hv1/76/97/2147/139633486.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+232: not in cache
+231: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/86/97/2147/139633496.jpg HTTP/1.1" from img1.gtimg.com
+232: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/76/97/2147/139633486.jpg HTTP/1.1" from img1.gtimg.com
+215: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/83/97/2147/139633493.jpg HTTP/1.1" from img1.gtimg.com
+221: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/200/22/2246/146051960.jpg HTTP/1.1" from img1.gtimg.com
+208: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/78/97/2147/139633488.jpg HTTP/1.1" from img1.gtimg.com
+212: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/240/75/2243/145870440.png HTTP/1.1" from img1.gtimg.com
+214: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/89/97/2147/139633499.jpg HTTP/1.1" from img1.gtimg.com
+207: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/75/97/2147/139633485.jpg HTTP/1.1" from img1.gtimg.com
+211: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/80/97/2147/139633490.jpg HTTP/1.1" from img1.gtimg.com
+209: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/81/97/2147/139633491.jpg HTTP/1.1" from img1.gtimg.com
+216: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/84/97/2147/139633494.jpg HTTP/1.1" from img1.gtimg.com
+218: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/77/97/2147/139633487.jpg HTTP/1.1" from img1.gtimg.com
+220: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/72/97/2147/139633482.jpg HTTP/1.1" from img1.gtimg.com
+219: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/87/97/2147/139633497.jpg HTTP/1.1" from img1.gtimg.com
+233: CONNECT jsqmt.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+236: CONNECT l.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+237: CONNECT vm.gtimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+238: CONNECT matchweb.sports.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+239: CONNECT pacaio.match.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+227: CONNECT i.gdt.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+240: CONNECT pacaio.match.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+229: CONNECT pgdt.gtimg.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+241: GET http://img1.gtimg.com/sports/pics/hv1/70/33/2322/150996535.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+241: not in cache
+242: GET http://img1.gtimg.com/sports/pics/hv1/56/28/2322/150995246.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+242: not in cache
+228: Responding "200 OK"
+213: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+241: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/70/33/2322/150996535.jpg HTTP/1.1" from img1.gtimg.com
+243: GET http://img1.gtimg.com/sports/pics/hv1/81/26/2322/150994761.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+243: not in cache
+242: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/56/28/2322/150995246.jpg HTTP/1.1" from img1.gtimg.com
+244: GET http://img1.gtimg.com/sports/pics/hv1/157/27/2322/150995092.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+244: not in cache
+238: Responding "200 OK"
+237: Responding "200 OK"
+210: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+245: CONNECT matchweb.sports.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+246: GET http://img1.gtimg.com/sports/pics/hv1/178/54/2322/151001998.png HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+246: not in cache
+217: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+247: GET http://img1.gtimg.com/sports/pics/hv1/179/54/2322/151001999.png HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+247: not in cache
+243: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/81/26/2322/150994761.jpg HTTP/1.1" from img1.gtimg.com
+244: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/157/27/2322/150995092.jpg HTTP/1.1" from img1.gtimg.com
+223: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+248: GET http://img1.gtimg.com/sports/pics/hv1/68/9/2315/150535238.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+248: not in cache
+246: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/178/54/2322/151001998.png HTTP/1.1" from img1.gtimg.com
+249: GET http://img1.gtimg.com/sports/pics/hv1/210/178/2189/142385325.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+249: not in cache
+245: Responding "200 OK"
+247: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/179/54/2322/151001999.png HTTP/1.1" from img1.gtimg.com
+222: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+248: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/68/9/2315/150535238.jpg HTTP/1.1" from img1.gtimg.com
+250: GET http://mat1.gtimg.com/sports/cba2016/images/navBar.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+250: not in cache
+234: CONNECT trace.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+209: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+249: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/210/178/2189/142385325.jpg HTTP/1.1" from img1.gtimg.com
+250: Requesting "GET http://mat1.gtimg.com/sports/cba2016/images/navBar.jpg HTTP/1.1" from mat1.gtimg.com
+235: CONNECT pingfore.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+221: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+251: GET http://img1.gtimg.com/sports/pics/hv1/187/41/2322/150998692.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+251: not in cache
+212: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+252: GET http://img1.gtimg.com/21/2170/217022/21702243.jpg HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+252: not in cache
+251: Requesting "GET http://img1.gtimg.com/sports/pics/hv1/187/41/2322/150998692.jpg HTTP/1.1" from img1.gtimg.com
+252: Requesting "GET http://img1.gtimg.com/21/2170/217022/21702243.jpg HTTP/1.1" from img1.gtimg.com
+236: Responding "200 OK"
+239: Responding "200 OK"
+240: Responding "200 OK"
+253: CONNECT data.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+255: CONNECT baas.browser.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+254: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+254: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+242: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+241: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+218: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+214: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+254: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+233: Responding "200 OK"
+216: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+246: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+247: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+220: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+243: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+219: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+232: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+211: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+208: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+244: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+256: CONNECT video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+257: CONNECT matchweb.sports.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+257: Responding "200 OK"
+248: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+215: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+231: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+226: Responding "200 OK"
+225: Responding "200 OK"
+224: Responding "200 OK"
+256: Responding "200 OK"
+251: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+230: Received "HTTP/1.1 200 OK" frommat1.gtimg.com
+258: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+259: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:11 2020
+253: Responding "200 OK"
+258: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+207: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+259: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+258: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+234: Responding "200 OK"
+249: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+252: Received "HTTP/1.1 200 OK" fromimg1.gtimg.com
+260: CONNECT list.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:12 2020
+261: CONNECT list.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:12 2020
+263: CONNECT list.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:12 2020
+262: CONNECT list.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:12 2020
+264: CONNECT list.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:12 2020
+265: CONNECT list.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:12 2020
+250: Received "HTTP/1.1 200 OK" frommat1.gtimg.com
+255: Responding "200 OK"
+259: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+263: Responding "200 OK"
+261: Responding "200 OK"
+265: Responding "200 OK"
+262: Responding "200 OK"
+260: Responding "200 OK"
+264: Responding "200 OK"
+266: CONNECT data.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:12 2020
+229: Responding "200 OK"
+266: Responding "200 OK"
+267: CONNECT data.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:13 2020
+267: Responding "200 OK"
+268: CONNECT data.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:14 2020
+268: Responding "200 OK"
+269: CONNECT data.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:15 2020
+269: Responding "200 OK"
+270: CONNECT p.l.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:16 2020
+271: CONNECT inews.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:16 2020
+273: CONNECT inews.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:16 2020
+272: CONNECT inews.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:16 2020
+274: CONNECT inews.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:16 2020
+275: CONNECT inews.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:16 2020
+276: CONNECT inews.gtimg.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:16 2020
+240: Tunnel closed
+272: Responding "200 OK"
+273: Responding "200 OK"
+276: Responding "200 OK"
+271: Responding "200 OK"
+275: Responding "200 OK"
+274: Responding "200 OK"
+224: Tunnel closed
+225: Tunnel closed
+270: Responding "200 OK"
+269: Tunnel closed
+273: Tunnel closed
+275: Tunnel closed
+271: Tunnel closed
+274: Tunnel closed
+264: Tunnel closed
+261: Tunnel closed
+262: Tunnel closed
+272: Tunnel closed
+265: Tunnel closed
+268: Tunnel closed
+267: Tunnel closed
+266: Tunnel closed
+277: CONNECT aus5.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:19 2020
+277: Responding "200 OK"
+278: GET http://ciscobinary.openh264.org/openh264-macosx64-2e1774ab6dc6c43debb0b5b628bdf122a391d521.zip HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:20 2020
+278: not in cache
+260: Tunnel closed
+279: CONNECT vpic.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:20 2020
+280: CONNECT tj.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:20 2020
+281: CONNECT btrace.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:20 2020
+282: CONNECT btrace.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:20 2020
+278: Requesting "GET http://ciscobinary.openh264.org/openh264-macosx64-2e1774ab6dc6c43debb0b5b628bdf122a391d521.zip HTTP/1.1" from ciscobinary.openh264.org
+278: Received "HTTP/1.1 200 OK" fromciscobinary.openh264.org
+279: Responding "200 OK"
+280: Responding "200 OK"
+282: Responding "200 OK"
+281: Responding "200 OK"
+283: CONNECT vd.l.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:21 2020
+283: Responding "200 OK"
+284: CONNECT dp3.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:22 2020
+284: Responding "200 OK"
+285: CONNECT puui.qpic.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:23 2020
+286: CONNECT dp3.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:23 2020
+287: CONNECT dp3.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:23 2020
+288: CONNECT dp3.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:23 2020
+289: CONNECT dp3.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:23 2020
+285: Responding "200 OK"
+290: CONNECT apd-141b995881125ed5982417abfcf14412.v.smtcdns.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:23 2020
+287: Responding "200 OK"
+286: Responding "200 OK"
+288: Responding "200 OK"
+282: Tunnel closed
+289: Responding "200 OK"
+290: Responding "200 OK"
+291: CONNECT cm.l.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:24 2020
+292: CONNECT cm.l.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:24 2020
+291: Responding "200 OK"
+292: Responding "200 OK"
+293: CONNECT m.reachmax.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:25 2020
+294: CONNECT cm.cn.miaozhen.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:25 2020
+295: CONNECT ncgi.video.qq.com:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:26 2020
+294: Responding "200 OK"
+293: Responding "200 OK"
+295: Responding "200 OK"
+235: Responding "200 OK"
+296: CONNECT reachmax-cm.admaster.com.cn:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:28 2020
+298: GET http://puui.qpic.cn/qqvideo_ori/0/a00335ikxx8_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+297: GET http://puui.qpic.cn/qqvideo_ori/0/m0033vd5nnp_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+298: not in cache
+297: not in cache
+300: GET http://puui.qpic.cn/qqvideo_ori/0/q0033um66it_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+300: not in cache
+299: GET http://puui.qpic.cn/qqvideo_ori/0/p0033ju3zpm_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+299: not in cache
+301: GET http://puui.qpic.cn/qqvideo_ori/0/y0033rp9mn0_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+301: not in cache
+302: GET http://puui.qpic.cn/qqvideo_ori/0/e0033nennw7_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+302: not in cache
+303: GET http://puui.qpic.cn/qqvideo_ori/0/y0033tq8zu9_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+303: not in cache
+308: GET http://puui.qpic.cn/qqvideo/0/x003322rc2m/332 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+308: not in cache
+304: GET http://puui.qpic.cn/qqvideo/0/z3073qzwlul/332 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+304: not in cache
+307: GET http://puui.qpic.cn/qqvideo/0/f00330m0qug/332 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+307: not in cache
+305: GET http://puui.qpic.cn/qqvideo_ori/0/l0033r7yqzm_496_280/0 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+305: not in cache
+306: GET http://puui.qpic.cn/qqvideo/0/e30738xpx0x/332 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:30 2020
+306: not in cache
+298: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/a00335ikxx8_496_280/0 HTTP/1.1" from puui.qpic.cn
+300: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/q0033um66it_496_280/0 HTTP/1.1" from puui.qpic.cn
+302: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/e0033nennw7_496_280/0 HTTP/1.1" from puui.qpic.cn
+301: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/y0033rp9mn0_496_280/0 HTTP/1.1" from puui.qpic.cn
+297: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/m0033vd5nnp_496_280/0 HTTP/1.1" from puui.qpic.cn
+299: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/p0033ju3zpm_496_280/0 HTTP/1.1" from puui.qpic.cn
+303: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/y0033tq8zu9_496_280/0 HTTP/1.1" from puui.qpic.cn
+304: Requesting "GET http://puui.qpic.cn/qqvideo/0/z3073qzwlul/332 HTTP/1.1" from puui.qpic.cn
+308: Requesting "GET http://puui.qpic.cn/qqvideo/0/x003322rc2m/332 HTTP/1.1" from puui.qpic.cn
+307: Requesting "GET http://puui.qpic.cn/qqvideo/0/f00330m0qug/332 HTTP/1.1" from puui.qpic.cn
+305: Requesting "GET http://puui.qpic.cn/qqvideo_ori/0/l0033r7yqzm_496_280/0 HTTP/1.1" from puui.qpic.cn
+306: Requesting "GET http://puui.qpic.cn/qqvideo/0/e30738xpx0x/332 HTTP/1.1" from puui.qpic.cn
+297: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+298: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+300: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+304: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+306: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+302: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+307: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+296: Responding "200 OK"
+296: Tunnel closed
+301: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+305: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+303: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+299: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+308: Received "HTTP/1.1 200 OK" frompuui.qpic.cn
+255: Tunnel closed
+293: Tunnel closed
+295: Tunnel closed
+256: Tunnel closed
+103: Responding "HTTP/1.1 200 OK"
+276: Tunnel closed
+310: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:58 2020
+182: Responding "HTTP/1.1 200 OK"
+182: NOTE cache control: 
+182: NOTE add to cache
+310: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+310: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+311: GET http://httpbin.org/favicon.ico HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:40:58 2020
+311: not in cache
+311: Requesting "GET http://httpbin.org/favicon.ico HTTP/1.1" from httpbin.org
+311: Received "HTTP/1.1 404 NOT FOUND" fromhttpbin.org
+102: Responding "HTTP/1.1 200 OK"
+312: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:00 2020
+312: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+312: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+285: Tunnel closed
+237: Tunnel closed
+230: Responding "HTTP/1.1 200 OK"
+230: NOTE cache control: max-age=600
+230: NOTE add to cache
+250: Responding "HTTP/1.1 200 OK"
+250: NOTE cache control: max-age=600
+250: NOTE add to cache
+146: Tunnel closed
+158: Tunnel closed
+313: POST http://httpbin.org/post HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:23 2020
+313: Requesting "POST http://httpbin.org/post HTTP/1.1" from httpbin.org
+313: Received "HTTP/1.1 200 OK" fromhttpbin.org
+171: Responding "HTTP/1.1 200 OK"
+174: Responding "HTTP/1.1 200 OK"
+172: Responding "HTTP/1.1 200 OK"
+173: Responding "HTTP/1.1 200 OK"
+175: Responding "HTTP/1.1 200 OK"
+314: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:25 2020
+316: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:25 2020
+315: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:25 2020
+317: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:25 2020
+318: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:25 2020
+314: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+316: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+315: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+317: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+318: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+315: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+314: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+316: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+317: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+318: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+236: Tunnel closed
+290: Tunnel closed
+270: Tunnel closed
+169: Responding "HTTP/1.1 200 OK"
+319: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:41:38 2020
+319: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+319: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+284: Tunnel closed
+289: Tunnel closed
+286: Tunnel closed
+288: Tunnel closed
+291: Tunnel closed
+292: Tunnel closed
+235: Tunnel closed
+287: Tunnel closed
+294: Tunnel closed
+311: Responding "HTTP/1.1 404 NOT FOUND"
+311: NOTE cache control: 
+311: NOTE add to cache
+122: Tunnel closed
+184: Responding "HTTP/1.1 200 OK"
+128: Tunnel closed
+320: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:42:03 2020
+320: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+320: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+238: Tunnel closed
+257: Tunnel closed
+258: Responding "HTTP/1.1 200 OK"
+321: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:42:12 2020
+321: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+321: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+259: Responding "HTTP/1.1 200 OK"
+322: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 03:42:12 2020
+322: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+322: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+152: Tunnel closed
+141: Tunnel closed
+165: Tunnel closed
+245: Tunnel closed
+157: Tunnel closed
+154: Tunnel closed
+160: Tunnel closed
+144: Tunnel closed
+142: Tunnel closed
+140: Tunnel closed
+134: Tunnel closed
+176: Tunnel closed
+178: Tunnel closed
+227: ERROR failed to connectserver
+313: Responding "HTTP/1.1 200 OK"
+124: Tunnel closed
+132: Tunnel closed
+130: Tunnel closed
+180: Tunnel closed

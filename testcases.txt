@@ -1,0 +1,22 @@
+Test Case:
+
+GET method:
+chunked:
+ http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx
+normal:
+ http://cs229.stanford.edu/projects.html
+ http://people.duke.edu/~bmr23/ece568/
+ http://go.com/
+ http://people.duke.edu/~bmr23/ece568/class.html
+ http://open-up.eu/en
+
+POST method:
+ http://httpbin.org/forms/post
+
+CONNECT method:
+ https://www.google.com/
+ https://bbs.hupu.com/
+ https://www.youtube.com/
+ 
+Concurrency test:
+ We used two browsers with multiple sheets to test concurrent performance. And it turns out it work well.
