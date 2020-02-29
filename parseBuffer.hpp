@@ -16,7 +16,9 @@ public:
     //cout << "**End of HTTP request**" << endl;
   }
 
-
+  string getTotal(){
+    return total;
+  }
 
   string getRequestType(){
     size_t firstBlank = total.find_first_of(" ");

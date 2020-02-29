@@ -27,6 +27,7 @@ private:
   int clientSFD;
   int serverSFD;
   logger* log;
+  string responseLine;
 
 public:
   proxyServerGET(string hn, char * buf, size_t rl,int csfd,logger * lg): \
@@ -113,7 +114,7 @@ public:
     cout<<"***received response from server***"<<endl;
     //tmp[firstLen] = '\0';
     parseBuffer pb(tmp);
-    string responseLine=pb.getFirstLine();
+    responseLine=pb.getFirstLine();
     log->receiveResponse(hostname,responseLine);
     //check chunk 
     if(pb.ifChunk()){
@@ -142,23 +143,17 @@ public:
         }
         delete[] tmpP;
       }
-      long responseLen=res.size();
+      responseLen=res.size();
 
-      char *response = new char[responseLen];
+      response = new char[responseLen];
       for(int i=0;i<responseLen;i++){
           response[i]=res[i]; 
       }
-      int sr2;
-      if ((sr2 = send(clientSFD, response, responseLen, 0)) == -1) {
-        perror("Error: failed to send reponse to client");
-        exit(1);
-      }
-      delete[] response;
-
-    }else{
+    }
+    else{
       long bodyLen=pb.getBodyLen();
       long headLen=pb.getHeadLen();
-      long responseLen=bodyLen+headLen;
+      responseLen=bodyLen+headLen;
       
 
       long leftLen = bodyLen - (firstLen - headLen);
@@ -181,23 +176,32 @@ public:
         return 0;
       }
       tmpP[0] = '\0';
-      int sr2;
-      if ((sr2 = send(clientSFD, response, responseLen, 0)) == -1) {
-        perror("Error: failed to send reponse to client");
-        exit(1);
-      }
     }
-      log->respondResponse(responseLine);
-    }
+    close(serverSFD);
+  }
 
-  // void sendToClient(){
-  //   cout<<"***inside of proxyServerGET.sendToClient()***"<<endl;
-  //   int res;
-  //   if ((res = send(clientSFD, response, responseLen, 0)) == -1) {
-  //     perror("Error: failed to send reponse to client");
-  //     exit(1);
-  //   }
-  // }
+
+  void sendToClient(){
+    cout<<"***inside of proxyServerGET.sendToClient()***"<<endl;
+    int res;
+    if ((res = send(clientSFD, response, responseLen, 0)) == -1) {
+      perror("Error: failed to send reponse to client");
+      exit(1);
+    }
+    log->respondResponse(responseLine);
+  }
+
+    ~proxyServerGET(){
+    delete[] response;
+  }
+
+  string getBufFromServerStr(){
+    string ret;
+    for(int i=0;i<responseLen;i++){
+      ret.push_back(response[i]);
+    }
+    return ret;
+  }
 
   void run(){
     //cout<<"***inside of proxyServerGET.run()***"<<endl;
@@ -209,9 +213,9 @@ public:
     if(rr=receiveFromServer()!=0){
       exit(1);
     };
-    //sendToClient();
+    sendToClient();
     cout<<"***end of proxyServerGET.run()***"<<endl;
-    close(clientSFD);
-    close(serverSFD);
+    // close(clientSFD);
+    // close(serverSFD);
   }
 };
