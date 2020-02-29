@@ -54,8 +54,6 @@ public:
     //get host info
     int gr;
     if ((gr = getaddrinfo(hostname.c_str(), "443", &hints, &servinfo)) != 0) {
-      // fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(gr));
-      // return 1;
       log->errorMessage("failed to get server address");
       throw cException;
     }
@@ -78,14 +76,12 @@ public:
     }
 
     if (p == NULL) {
-      // perror("Error: failed to connectserver");
-      // return 2;
       log->errorMessage("failed to connectserver");
       throw cException;
     }
     inet_ntop(p->ai_family, get_in_addr((struct sockaddr *)p->ai_addr),
               s, sizeof s);
-    printf("client: connecting to %s\n", s);
+    cout<<"Connect with Server"<<endl;
     freeaddrinfo(servinfo); // all done with this structure
     setTunnel();
   }
@@ -105,12 +101,6 @@ public:
       int FDsendto = (FD_ISSET(clientSFD, &fdsets)) ? serverSFD : clientSFD;
       char buff[65535];
       int recvRes = recv(FDselected, buff, 65535, 0);
-
-      // for test
-      //string recvfrom = (FDselected == clientSFD) ? "client" : "server";
-      //cout << "This time receive from " << recvfrom << endl;
-      //cout << "recvRes: " << recvRes << endl;
-
       if(recvRes == 0) {
         close(clientSFD);
         close(serverSFD);
@@ -125,11 +115,10 @@ public:
       }
     }
     log->tunnelClose();
+    cout<<"Tunnel close"<<endl;
   }
 
   void run(){
     connectToServer();
-    // close(clientSFD);
-    // close(serverSFD);
   }
 };

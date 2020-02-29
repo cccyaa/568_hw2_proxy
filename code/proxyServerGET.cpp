@@ -57,8 +57,6 @@ public:
     //get host info
     int gr;
     if ((gr = getaddrinfo(hostname.c_str(), "80", &hints, &servinfo)) != 0) {
-      // fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(gr));
-      // return 1;
       log->errorMessage("failed to get server address");
       throw gException;
     }
@@ -80,8 +78,6 @@ public:
     }
 
     if (p == NULL) {
-      // perror("Error: failed to connectserver");
-      // return 2;
       log->errorMessage("failed to connectserver");
       throw gException;
     }
@@ -95,12 +91,10 @@ public:
     int sr = send(serverSFD, request, requestLen, 0);
 
     if (sr == -1) {
-      // perror("Error: cannot send request to server");
-      // exit(1);
       log->errorMessage("cannot send request to server");
       throw gException;
     }
-    cout<<"***send request to server***"<<endl;
+    cout<<"Send request to server"<<endl;
     //log request from server
     log->requestRequest(hostname);
   }
@@ -118,34 +112,24 @@ public:
       perror("recv");
       exit(1);
     }
-    cout<<"***received response from server***"<<endl;
-    //tmp[firstLen] = '\0';
+    cout<<"Received response from server"<<endl;
     parseBuffer pb(tmp);
     responseLine=pb.getFirstLine();
     log->receiveResponse(hostname,responseLine);
     //check chunk 
     if(pb.ifChunk()){
-      //cout<<"it is a chunk situation"<<endl;
       log->noteMessage("received chunked content");
       vector<char> res;
       addCharArray(tmp,firstLen,res);
       delete[] tmp;
-   
-      int count=2;//for test
       while(true){
-        //cout<<"inside chunk loop"<<endl;
         char * tmpP=new char[65535];
         int recvByte;
         if((recvByte=recv(serverSFD,tmpP,65535,0))==-1){
-            // perror("Error: failed to get response from server[chunk]");
-            // exit(1);
             log->errorMessage("failed to get response from server[chunk]");
             throw gException;
         }
-        //cout<<"recv "<<count<<" response from server"<<endl;
         addCharArray(tmpP,recvByte,res);
-        //cout<<"recvbytes:"<<recvByte<<endl;
-        //count++;
         if (tmpP[0]=='0'){
           delete[] tmpP;
           break;
@@ -181,7 +165,6 @@ public:
       }
       if (leftLen==0){
         cout<<"leftlen==0!!!"<<endl;
-        //return 0;
       }
       tmpP[0] = '\0';
     }
@@ -189,15 +172,13 @@ public:
   }
 
   void sendToClient(){
-    cout<<"***inside of proxyServerGET.sendToClient()***"<<endl;
     int res;
     if ((res = send(clientSFD, response, responseLen, 0)) == -1) {
-      // perror("Error: failed to send reponse to client");
-      // exit(1);
       log->errorMessage("failed to send to client");
       throw gException;
     }
     log->respondResponse(responseLine);
+    cout<<"Send response to client"<<endl;
   }
 
     ~proxyServerGET(){
@@ -216,6 +197,5 @@ public:
     sendToServer();
     receiveFromServer();
     sendToClient();
-    //cout<<"***end of proxyServerGET.run()***"<<endl;
   }
 };

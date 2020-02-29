@@ -746,3 +746,49 @@
 132: Tunnel closed
 130: Tunnel closed
 180: Tunnel closed
+100: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:22:38 2020
+101: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:22:38 2020
+102: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:22:38 2020
+100: Responding "200 OK"
+101: Responding "200 OK"
+102: Responding "200 OK"
+103: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:22:39 2020
+103: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+104: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:22:39 2020
+105: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:22:39 2020
+103: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+104: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+105: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+104: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+105: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+106: GET http://www.mocky.io/v2/5e59df643000000e001f0a5b HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:22:43 2020
+106: NOTE not use cache, directly to server
+106: not in cache
+106: Requesting "GET http://www.mocky.io/v2/5e59df643000000e001f0a5b HTTP/1.1" from www.mocky.io
+106: Received "HTTP/1.1 200 OK" fromwww.mocky.io
+101: Tunnel closed
+102: Tunnel closed
+100: Tunnel closed
+106: Responding "HTTP/1.1 200 OK"
+106: NOTE cache control: max-age=0
+106: NOTE add to cache
+107: GET http://www.mocky.io/favicon.ico HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:23:42 2020
+107: NOTE not use cache, directly to server
+107: not in cache
+107: Requesting "GET http://www.mocky.io/favicon.ico HTTP/1.1" from www.mocky.io
+107: Received "HTTP/1.1 404 Not Found" fromwww.mocky.io
+108: GET http://www.mocky.io/v2/5e59df643000000e001f0a5b HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:23:54 2020
+108: in cache, but expired at Fri Feb 28 23:22:43 2020
+
+108: Requesting "GET http://www.mocky.io/v2/5e59df643000000e001f0a5b HTTP/1.1" from www.mocky.io
+108: Received "HTTP/1.1 200 OK" fromwww.mocky.io
+107: Responding "HTTP/1.1 404 Not Found"
+107: NOTE cache control: 
+107: NOTE add to cache
+108: NOTE cache stale, send new response to client
+109: GET http://www.mocky.io/favicon.ico HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:24:53 2020
+109: in cache, valid
+109: NOTE fresh, directly send cache to client
+103: Responding "HTTP/1.1 200 OK"
+104: Responding "HTTP/1.1 200 OK"
+105: Responding "HTTP/1.1 200 OK"

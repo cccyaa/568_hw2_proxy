@@ -12,7 +12,6 @@
 #include <mutex>
 #include "proxyServerGET.cpp" 
 #include "proxyServerCONNECT.cpp"
-#include "proxyServerPOST.cpp"
 #include "parseBuffer.hpp"
 #include "logger.hpp"
 #include "cache.hpp"
@@ -45,7 +44,7 @@ public:
   void mainThread(){
     LRUCache * cacheMain = new LRUCache(20);
     while(true){
-      cout << "**Waiting for connection on port 12345**" << endl;
+      cout << "Waiting for connection on port 12345" << endl;
       struct sockaddr_storage socket_addr;
       socklen_t socket_addr_len = sizeof(socket_addr);
       int clientSFD;
@@ -53,7 +52,7 @@ public:
       char ip[INET6_ADDRSTRLEN];
       sockaddrToIP((struct sockaddr *)&socket_addr, ip);
       string clientIP=ip;
-      cout << "**conected to client**" << endl;
+      cout << "Conected to client" << endl;
 
       if (clientSFD == -1) {
         throw mException;
@@ -85,11 +84,8 @@ public:
     string total=pb.getTotal();
     
     log.receiveNewRequest(clientIP,requestLine);
-    //cout<<"***requestType:"<<requestType<<"***"<<endl;
     if (requestType=="GET"){
-        //cout<<"***inside of GET***"<<endl;
       string request_Str=char_to_str(buffer,numbytes);
-        //requestGET(clientSFD,request_Str,hostname,buffer,numbytes,&log);
       mtx.lock();
       cacheRes res = cache->get(requestLine);
       mtx.unlock();
@@ -97,7 +93,7 @@ public:
         cacheProcess(res, request_Str, clientSFD, hostname, buffer, numbytes, &log);
       }
       else {
-        cout << "NOT USE CACHE, DIRECTLY TO SERVER" << endl;
+        log.noteMessage("not use cache, directly to server");
         log.notInCache();
         try{
           proxyServerGET ps(hostname,buffer, numbytes,clientSFD,&log);
@@ -143,7 +139,7 @@ static string char_to_str(char * buffer, int numbytes){
 
 static void makeValidate(cacheRes & res, string & req, int client_connection_fd, string hostname, char * buffer, int numbytes, logger * log) {
     // create new request, adding ifNoneMatch & ifModSince
-    string etag = res.getEtag();   // W"aaa" or "aaabbbb"
+    string etag = res.getEtag();   // W"aaa" or "aaabbb"
     string ifNoneMatch = "If-None-Match: " + etag;
     string lastMod = res.getLastMod();
     string ifModSince = "If-Modified-Since: " + lastMod;
@@ -151,7 +147,6 @@ static void makeValidate(cacheRes & res, string & req, int client_connection_fd,
     string newreq = req.substr(0, endIdx) + "\r\n" + ifNoneMatch + "\r\n" + ifModSince + "\r\n\r\n";
     size_t newEndIdx = newreq.find("\r\n\r\n");
     // validate with server
-    // proxyServerGETold ps(getHostServer(), newreq.c_str(), newEndIdx, "80");
     proxyServerGET ps(hostname,buffer, numbytes,client_connection_fd,log);
 
     ps.sendToServer();
@@ -159,11 +154,11 @@ static void makeValidate(cacheRes & res, string & req, int client_connection_fd,
     string httpResponse = ps.getBufFromServerStr();
     if (httpResponse.find("200") == string::npos) { // still valid, send back original content
       send(client_connection_fd, res.getTotal().c_str(), res.getTotal().size(), 0);
-      cout << "THE CACHE IS STILL VALID, SEND CACHE BACK TO CLIENT" << endl;
+      log->noteMessage("the cache is still valid, sent it back to client");
     }
     else {  // new content
       send(client_connection_fd, httpResponse.c_str(), httpResponse.size(), 0);
-      cout << "CACHE STALE, SEND NEW RESPONSE TO CLIENT" << endl;
+      log->noteMessage("cache stale, send new response to client");
     }
   }
 
@@ -174,38 +169,26 @@ static void makeValidate(cacheRes & res, string & req, int client_connection_fd,
     string expires = res.getExp();
     string ctlContent = res.getCachaCtl();
     time_t curTime = time(NULL);   // convert EST to GMT
-    cout << "curTime: " << curTime << endl;
     time_t expirTime;
     bool expTassigned = false;
     if (expires != "") {
       struct tm exp_struct;
-      cout << "expires: " << expires << endl;
-      strptime(expires.c_str(), "%a, %d %b %Y %H:%M:%S GMT", &exp_struct);
-      cout << "tm_year: "<< exp_struct.tm_year << endl;
-      cout << "tm_mon: " << exp_struct.tm_mon<< endl;
-      cout << "tm_hour: " << exp_struct.tm_hour<< endl;
+      size_t lstBlk = expires.find_last_of(" ");
+      strptime(expires.substr(0, lstBlk).c_str(), "%a, %d %b %Y %H:%M:%S", &exp_struct);
       expirTime = mktime(&exp_struct); 
       expTassigned = true;
-      cout << "expirTime: " << expirTime << endl;
     }
     if (maxAge != -1 && date != "") {  // maxage exists
       struct tm date_struct;
-      strptime(date.c_str(), "%a, %d %b %Y %H:%M:%S GMT", &date_struct);
-      time_t createTime = mktime(&date_struct);
-      cout << "createTime tm_year: "<< date_struct.tm_year << endl;
-      cout << "createTime tm_mon: " << date_struct.tm_mon<< endl;
-      cout << "createTime tm_hour: " << date_struct.tm_hour<< endl;
+      size_t lstBlk = expires.find_last_of(" ");
+      strptime(date.substr(0, lstBlk).c_str(), "%a, %d %b %Y %H:%M:%S", &date_struct);
+      time_t createTime = mktime(&date_struct) - 3600 * 5;   // reduce 5 hours
       expirTime = createTime + maxAge;
       expTassigned = true;
-
-      cout << "MAXAGE: " << maxAge << endl;
-      cout << "createTime: " << createTime << endl;
-      cout << "expirTime: " << expirTime << endl;
     }
 
     // must revalidate
     if (res.isMustRevalidate() || (expTassigned && expirTime < curTime)) {
-      cout << "MAKE REVALIDATION!!!!!!!!!!!!!!" << endl;
       if(res.isMustRevalidate()){
         log->revalidationCache();
       }else{
@@ -216,7 +199,7 @@ static void makeValidate(cacheRes & res, string & req, int client_connection_fd,
     else {  // directly send back original res to client
       send(client_connection_fd, res.getTotal().c_str(), res.getTotal().size(), 0);
       log->validCache();
-      cout << "FRESH, DIRECTLY SEND CACHE TO CLIENT" << endl;
+      log->noteMessage("fresh, directly send cache to client");
     }
   }
 
@@ -224,16 +207,28 @@ static void makeValidate(cacheRes & res, string & req, int client_connection_fd,
     lock_guard<mutex> lck(mtx);
     cacheRes maybeCache(res, false);
     string cacheCtlStr = maybeCache.getCacheCtlCnt();
-    cout << "cacheCtlStr: " << cacheCtlStr << endl;
     log->noteMessage("cache control: "+cacheCtlStr);
     if (cacheCtlStr != "no-store" && cacheCtlStr != "private") {
       cache->put(req, maybeCache);
-      cout << "cache added:" << endl;
-      cout << "key: " << req << endl;
-      // cout << "value: " << getFirstLineReq(res) << endl;
+      if(maybeCache.getExp() != "") {
+         log->cacheButExpires(maybeCache.getExp());
+      }
+      else if(maybeCache.retMaxAge() != -1 && maybeCache.getDate() != ""){
+        long maxAge = maybeCache.retMaxAge();
+        string date = maybeCache.getDate();
+        struct tm date_struct;
+        size_t lstBlk = date.find_last_of(" ");
+        strptime(date.substr(0, lstBlk).c_str(), "%a, %d %b %Y %H:%M:%S", &date_struct);
+        time_t createTime = mktime(&date_struct) - 3600 * 5;   // reduce 5 hours
+        time_t expirTime = createTime + maxAge;
+        log->cacheButExpires(asctime(gmtime(&expirTime)));
+      }
+      else if(maybeCache.isMustRevalidate()) {
+        log->cacheButValidation();
+      }
     }
     else {
-      cout << "NOT ADD TO CACHE" << endl;
+      log->notCacheable(cacheCtlStr);
     }
   }
 

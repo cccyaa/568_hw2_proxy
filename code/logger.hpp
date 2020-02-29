@@ -86,6 +86,21 @@ public:
 		write(log);
 	}
 
+	void notCacheable(string message){
+		string log=uniqueID+": not cacheable because "+message+"\n";
+		write(log);
+	}
+
+	void cacheButExpires(string message){
+		string log=uniqueID+": cached but expires at "+message+"\n";
+		write(log);
+	}
+
+	void cacheButValidation(){
+		string log=uniqueID+": cached but requests revalidation\n";
+		write(log);
+	}
+
 	void tunnelClose(){
 		string log=uniqueID+": Tunnel closed"+"\n";
 		write(log);
