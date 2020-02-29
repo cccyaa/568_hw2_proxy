@@ -14,7 +14,10 @@
 #include <vector>
 #include "parseBuffer.hpp"
 #include "logger.hpp"
+#include "exceptions.hpp"
 using namespace std;
+
+connectException cException;
 
 class proxyServerCONNECT {
 private:
@@ -41,7 +44,7 @@ public:
     return &(((struct sockaddr_in6*)sa)->sin6_addr);
   }
 
-  int connectToServer(){
+  void connectToServer(){
     struct addrinfo hints, *servinfo, *p;
     char s[INET6_ADDRSTRLEN];
     memset(&hints, 0, sizeof hints);
@@ -51,8 +54,10 @@ public:
     //get host info
     int gr;
     if ((gr = getaddrinfo(hostname.c_str(), "443", &hints, &servinfo)) != 0) {
-      fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(gr));
-      return 1;
+      // fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(gr));
+      // return 1;
+      log->errorMessage("failed to get server address");
+      throw cException;
     }
 
     //connect to host and get serverSFD
@@ -73,23 +78,22 @@ public:
     }
 
     if (p == NULL) {
-      perror("Error: failed to connectserver");
-      return 2;
+      // perror("Error: failed to connectserver");
+      // return 2;
+      log->errorMessage("failed to connectserver");
+      throw cException;
     }
     inet_ntop(p->ai_family, get_in_addr((struct sockaddr *)p->ai_addr),
               s, sizeof s);
     printf("client: connecting to %s\n", s);
     freeaddrinfo(servinfo); // all done with this structure
     setTunnel();
-    return 0;
   }
 
   void setTunnel(){
     const char * okMsg = "200 OK\r\n";
     send(clientSFD, okMsg, strlen(okMsg), 0);
     log->respondResponse("200 OK");
-
-
     while (true) {
       fd_set fdsets;
       FD_ZERO(&fdsets);
@@ -112,22 +116,20 @@ public:
         close(serverSFD);
         break;
       }
-      send(FDsendto, buff, recvRes, 0);
-
-      // temp compromise
-      //break;  
+      int sendbytes;
+      if((sendbytes=send(FDsendto, buff, recvRes, 0))==-1){
+        log->errorMessage("failed to send to client");
+        close(clientSFD);
+        close(serverSFD);
+        throw cException;
+      }
     }
-    //cout << "***Connection ends***" << endl;
     log->tunnelClose();
   }
 
   void run(){
-    //cout<<"***inside of proxyServerGET.run()***"<<endl;
-    int res;
-    if(res=connectToServer()!=0){
-      exit(1);
-    }
-    close(clientSFD);
-    close(serverSFD);
+    connectToServer();
+    // close(clientSFD);
+    // close(serverSFD);
   }
 };

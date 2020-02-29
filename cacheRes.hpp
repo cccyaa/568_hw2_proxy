@@ -9,7 +9,6 @@ class cacheRes {
 private:
   string total;
   string head;
-  // string content;
   string cacheControl;
   string date;
   string expires;

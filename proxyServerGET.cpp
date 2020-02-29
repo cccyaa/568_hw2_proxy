@@ -14,8 +14,10 @@
 #include <vector>
 #include "logger.hpp"
 #include "parseBuffer.hpp"
+#include "exceptions.hpp"
 using namespace std;
 
+getException gException;
 
 class proxyServerGET {
 private:
@@ -44,7 +46,7 @@ public:
   }
   //should not return
   //should throw exception
-  int sendToServer(){
+  void sendToServer(){
     struct addrinfo hints, *servinfo, *p;
     char s[INET6_ADDRSTRLEN];
 
@@ -55,8 +57,10 @@ public:
     //get host info
     int gr;
     if ((gr = getaddrinfo(hostname.c_str(), "80", &hints, &servinfo)) != 0) {
-      fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(gr));
-      return 1;
+      // fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(gr));
+      // return 1;
+      log->errorMessage("failed to get server address");
+      throw gException;
     }
 
     //connect to host and get serverSFD
@@ -76,8 +80,10 @@ public:
     }
 
     if (p == NULL) {
-      perror("Error: failed to connectserver");
-      return 2;
+      // perror("Error: failed to connectserver");
+      // return 2;
+      log->errorMessage("failed to connectserver");
+      throw gException;
     }
 
     inet_ntop(p->ai_family, get_in_addr((struct sockaddr *)p->ai_addr),
@@ -89,13 +95,14 @@ public:
     int sr = send(serverSFD, request, requestLen, 0);
 
     if (sr == -1) {
-      perror("Error: cannot send request to server");
-      exit(1);
+      // perror("Error: cannot send request to server");
+      // exit(1);
+      log->errorMessage("cannot send request to server");
+      throw gException;
     }
     cout<<"***send request to server***"<<endl;
     //log request from server
     log->requestRequest(hostname);
-    return 0;
   }
 
   void addCharArray(char * ori, int length,vector<char>& res){
@@ -104,7 +111,7 @@ public:
       }
   }
 
-  int receiveFromServer(){
+  void receiveFromServer(){
     int firstLen;
     char * tmp = new char[65535];
     if ((firstLen = recv(serverSFD, tmp, 65535, 0)) == -1) {
@@ -130,8 +137,10 @@ public:
         char * tmpP=new char[65535];
         int recvByte;
         if((recvByte=recv(serverSFD,tmpP,65535,0))==-1){
-            perror("Error: failed to get response from server[chunk]");
-            exit(1);
+            // perror("Error: failed to get response from server[chunk]");
+            // exit(1);
+            log->errorMessage("failed to get response from server[chunk]");
+            throw gException;
         }
         //cout<<"recv "<<count<<" response from server"<<endl;
         addCharArray(tmpP,recvByte,res);
@@ -154,8 +163,6 @@ public:
       long bodyLen=pb.getBodyLen();
       long headLen=pb.getHeadLen();
       responseLen=bodyLen+headLen;
-      
-
       long leftLen = bodyLen - (firstLen - headLen);
       leftLen = bodyLen + headLen;
       response = new char[leftLen + 1];
@@ -173,20 +180,22 @@ public:
         leftLen -= recvByte;
       }
       if (leftLen==0){
-        return 0;
+        cout<<"leftlen==0!!!"<<endl;
+        //return 0;
       }
       tmpP[0] = '\0';
     }
     close(serverSFD);
   }
 
-
   void sendToClient(){
     cout<<"***inside of proxyServerGET.sendToClient()***"<<endl;
     int res;
     if ((res = send(clientSFD, response, responseLen, 0)) == -1) {
-      perror("Error: failed to send reponse to client");
-      exit(1);
+      // perror("Error: failed to send reponse to client");
+      // exit(1);
+      log->errorMessage("failed to send to client");
+      throw gException;
     }
     log->respondResponse(responseLine);
   }
@@ -204,18 +213,9 @@ public:
   }
 
   void run(){
-    //cout<<"***inside of proxyServerGET.run()***"<<endl;
-    int rs;
-    if(rs=sendToServer()!=0){
-      exit(1);
-    }
-    int rr;
-    if(rr=receiveFromServer()!=0){
-      exit(1);
-    };
+    sendToServer();
+    receiveFromServer();
     sendToClient();
-    cout<<"***end of proxyServerGET.run()***"<<endl;
-    // close(clientSFD);
-    // close(serverSFD);
+    //cout<<"***end of proxyServerGET.run()***"<<endl;
   }
 };

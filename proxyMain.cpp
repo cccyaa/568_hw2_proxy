@@ -17,22 +17,20 @@
 #include "logger.hpp"
 #include "cache.hpp"
 #include "cacheRes.hpp"
+#include "exceptions.hpp"
 
 using namespace std;
 
 mutex mtx;  // locker
+mainException mException;
 
 class proxyMain{
   int proxySFD;
   int numOfRequests;
-  // LRUCache cacheMain;
 public:
   proxyMain(){
     proxySFD=getProxySFD();
     numOfRequests=100;
-    //if (proxySFD==-1){
-      
-    //}
   }
 
   void sockaddrToIP(struct sockaddr * sa, char * s) {
@@ -44,7 +42,7 @@ public:
     }
   }
 
-  int mainThread(){
+  void mainThread(){
     LRUCache * cacheMain = new LRUCache(20);
     while(true){
       cout << "**Waiting for connection on port 12345**" << endl;
@@ -58,13 +56,13 @@ public:
       cout << "**conected to client**" << endl;
 
       if (clientSFD == -1) {
-      	cerr << "Error: cannot accept connection on socket" << endl;
-      	return -1;
+        throw mException;
       }
+
       thread newthread(newThread,clientSFD,numOfRequests++,clientIP, cacheMain);
       newthread.detach();
+
     }
-    return 1;
   }
 
   static void newThread(int clientSFD,int uniqueID,string clientIP, LRUCache* cache){
@@ -73,10 +71,11 @@ public:
     int numbytes;
     if((numbytes=recv(clientSFD,buffer,65535,0))==-1){
       cerr<<"Error: receive -1 bytes"<<endl;
-      exit(1);
+      return;
     }
     if(numbytes==0){
-      exit(1);
+      cerr<<"Error: receive 0 bytes"<<endl;
+      return;
     }
     logger log(uniqueID);
     parseBuffer pb(buffer);
@@ -86,7 +85,7 @@ public:
     string total=pb.getTotal();
     
     log.receiveNewRequest(clientIP,requestLine);
-    //std::cout<<"***requestType:"<<requestType<<"***"<<endl;
+    //cout<<"***requestType:"<<requestType<<"***"<<endl;
     if (requestType=="GET"){
         //cout<<"***inside of GET***"<<endl;
       string request_Str=char_to_str(buffer,numbytes);
@@ -100,33 +99,49 @@ public:
       else {
         cout << "NOT USE CACHE, DIRECTLY TO SERVER" << endl;
         log.notInCache();
-        proxyServerGET ps(hostname,buffer, numbytes,clientSFD,&log);
-        ps.run();
-        addToCache(ps.getBufFromServerStr(),requestLine, cache);   
-      }
-    }
-      else if(requestType=="POST") {
-        proxyServerGET ps(hostname,buffer, numbytes,clientSFD,&log);
-        ps.run();
-      }
-      else if(requestType=="CONNECT"){
-          proxyServerCONNECT ps(hostname,buffer,numbytes,clientSFD,&log);
-          ps.run(); 
+        try{
+          proxyServerGET ps(hostname,buffer, numbytes,clientSFD,&log);
+          ps.run();
+          addToCache(ps.getBufFromServerStr(),requestLine, cache,&log); 
+        }catch(exception e){
+          cerr<<e.what();
+          return;
+        }
+        log.noteMessage("add to cache");
       }
       close(clientSFD);
-    //delete[] buffer;
-  }
-
-  static string char_to_str(char * buffer, int numbytes){
-    string ret;
-    for(int i=0;i<numbytes;i++){
-      ret.push_back(buffer[i]);
     }
-    return ret;
+    else if(requestType=="POST") {
+      try{
+       proxyServerGET ps(hostname,buffer, numbytes,clientSFD,&log);
+       ps.run();
+     }catch(exception e){
+      cerr<<e.what();
+      return;
+    }
+    
+    close(clientSFD);
   }
+  else if(requestType=="CONNECT"){
+    try{
+      proxyServerCONNECT ps(hostname,buffer,numbytes,clientSFD,&log);
+      ps.run(); 
+    }catch(exception e){
+      cerr<<e.what();
+      return;
+    }
+  }
+}
 
+static string char_to_str(char * buffer, int numbytes){
+  string ret;
+  for(int i=0;i<numbytes;i++){
+    ret.push_back(buffer[i]);
+  }
+  return ret;
+}
 
-  static void makeValidate(cacheRes & res, string & req, int client_connection_fd, string hostname, char * buffer, int numbytes, logger * log) {
+static void makeValidate(cacheRes & res, string & req, int client_connection_fd, string hostname, char * buffer, int numbytes, logger * log) {
     // create new request, adding ifNoneMatch & ifModSince
     string etag = res.getEtag();   // W"aaa" or "aaabbbb"
     string ifNoneMatch = "If-None-Match: " + etag;
@@ -135,11 +150,10 @@ public:
     size_t endIdx = req.find("\r\n\r\n");
     string newreq = req.substr(0, endIdx) + "\r\n" + ifNoneMatch + "\r\n" + ifModSince + "\r\n\r\n";
     size_t newEndIdx = newreq.find("\r\n\r\n");
-
     // validate with server
     // proxyServerGETold ps(getHostServer(), newreq.c_str(), newEndIdx, "80");
     proxyServerGET ps(hostname,buffer, numbytes,client_connection_fd,log);
-  
+
     ps.sendToServer();
     ps.receiveFromServer();
     string httpResponse = ps.getBufFromServerStr();
@@ -151,11 +165,10 @@ public:
       send(client_connection_fd, httpResponse.c_str(), httpResponse.size(), 0);
       cout << "CACHE STALE, SEND NEW RESPONSE TO CLIENT" << endl;
     }
-    // close(client_connection_fd);
   }
 
   // this function revalidate or directly send back cache content
-   static void cacheProcess(cacheRes & res, string & req, int client_connection_fd, string hostname, char * buffer, int numbytes, logger * log) {
+  static void cacheProcess(cacheRes & res, string & req, int client_connection_fd, string hostname, char * buffer, int numbytes, logger * log) {
     long maxAge = res.retMaxAge();
     string date = res.getDate();
     string expires = res.getExp();
@@ -203,16 +216,16 @@ public:
     else {  // directly send back original res to client
       send(client_connection_fd, res.getTotal().c_str(), res.getTotal().size(), 0);
       log->validCache();
-      // close(client_connection_fd);
       cout << "FRESH, DIRECTLY SEND CACHE TO CLIENT" << endl;
     }
   }
 
-  static void addToCache(string res, string req, LRUCache * cache) {
+  static void addToCache(string res, string req, LRUCache * cache,logger * log) {
     lock_guard<mutex> lck(mtx);
     cacheRes maybeCache(res, false);
     string cacheCtlStr = maybeCache.getCacheCtlCnt();
     cout << "cacheCtlStr: " << cacheCtlStr << endl;
+    log->noteMessage("cache control: "+cacheCtlStr);
     if (cacheCtlStr != "no-store" && cacheCtlStr != "private") {
       cache->put(req, maybeCache);
       cout << "cache added:" << endl;
@@ -241,34 +254,30 @@ public:
     status = getaddrinfo(hostname, port, &host_info, &host_info_list);
     if (status != 0) {
       cerr << "Error: cannot get address info for host" << endl;
-      cerr << "  (" << hostname << "," << port << ")" << endl;
-      return -1;
-    } //if
+      throw mException;
+    } 
 
     socket_fd = socket(host_info_list->ai_family,
-                       host_info_list->ai_socktype,
-                       host_info_list->ai_protocol);
+     host_info_list->ai_socktype,
+     host_info_list->ai_protocol);
     if (socket_fd == -1) {
       cerr << "Error: cannot create socket" << endl;
-      cerr << "  (" << hostname << "," << port << ")" << endl;
-      return -1;
-    } //if
+      throw mException;
+    } 
 
     int yes = 1;
     status = setsockopt(socket_fd, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(int));
     status = bind(socket_fd, host_info_list->ai_addr, host_info_list->ai_addrlen);
     if (status == -1) {
       cerr << "Error: cannot bind socket" << endl;
-      cerr << "  (" << hostname << "," << port << ")" << endl;
-      return -1;
-    } //if
+      throw mException;
+    } 
 
     status = listen(socket_fd, 100);
     if (status == -1) {
       cerr << "Error: cannot listen on socket" << endl;
-      cerr << "  (" << hostname << "," << port << ")" << endl;
-      return -1;
-    } //if
+      throw mException;
+    } 
     freeaddrinfo(host_info_list);
     return socket_fd;
   }
@@ -276,9 +285,10 @@ public:
 };
 
 int main(){
-  proxyMain proxymain;
-  int res=proxymain.mainThread();
-  if(res==-1){
-    exit(1);
+  try{
+    proxyMain proxymain;
+    proxymain.mainThread();
+  }catch(mainException e){
+    cout<<e.what();
   }
 }

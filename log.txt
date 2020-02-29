@@ -1,0 +1,2107 @@
+100: GET http://www.mocky.io/v2/5e59b8cb3000003d031f0a0c HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:10:10 2020
+100: not in cache
+100: Requesting "GET http://www.mocky.io/v2/5e59b8cb3000003d031f0a0c HTTP/1.1" from www.mocky.io
+100: Received "HTTP/1.1 200 OK" fromwww.mocky.io
+101: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:10:49 2020
+101: not in cache
+101: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+101: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+102: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:10:54 2020
+102: not in cache
+102: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+102: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+103: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:10:59 2020
+103: not in cache
+103: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+103: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+104: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:11:04 2020
+104: not in cache
+104: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+104: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+105: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:11:09 2020
+105: not in cache
+105: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+105: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+100: Responding "HTTP/1.1 200 OK"
+106: GET http://www.mocky.io/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:11:10 2020
+106: not in cache
+106: Requesting "GET http://www.mocky.io/favicon.ico HTTP/1.1" from www.mocky.io
+106: Received "HTTP/1.1 404 Not Found" fromwww.mocky.io
+107: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:11:14 2020
+107: not in cache
+107: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+107: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+108: GET http://www.mocky.io/v2/5e59b8cb3000003d031f0a0c HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:11:23 2020
+108: in cache, valid
+109: GET http://www.mocky.io/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:11:23 2020
+109: not in cache
+109: Requesting "GET http://www.mocky.io/favicon.ico HTTP/1.1" from www.mocky.io
+109: Received "HTTP/1.1 404 Not Found" fromwww.mocky.io
+100: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:17:49 2020
+100: not in cache
+100: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+100: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+101: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:17:54 2020
+101: not in cache
+101: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+101: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+102: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:17:59 2020
+102: not in cache
+102: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+102: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+103: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:18:04 2020
+103: not in cache
+103: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+103: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+104: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:18:09 2020
+104: not in cache
+104: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+104: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+105: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:18:10 2020
+105: not in cache
+105: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+105: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+106: GET http://www.mocky.io/v2/5e59b8cb3000003d031f0a0c HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:18:14 2020
+106: not in cache
+106: Requesting "GET http://www.mocky.io/v2/5e59b8cb3000003d031f0a0c HTTP/1.1" from www.mocky.io
+106: Received "HTTP/1.1 200 OK" fromwww.mocky.io
+107: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:18:49 2020
+107: not in cache
+107: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+107: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+108: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:18:54 2020
+108: not in cache
+108: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+108: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+109: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:18:59 2020
+109: not in cache
+109: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+109: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+110: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:04 2020
+110: not in cache
+110: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+110: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+111: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:09 2020
+111: not in cache
+111: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+111: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+112: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:10 2020
+112: Responding "200 OK"
+113: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:10 2020
+113: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+113: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+106: Responding "HTTP/1.1 200 OK"
+106: NOTE cache control: max-age=0
+106: NOTE add to cache
+114: GET http://www.mocky.io/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:13 2020
+114: not in cache
+114: Requesting "GET http://www.mocky.io/favicon.ico HTTP/1.1" from www.mocky.io
+114: Received "HTTP/1.1 404 Not Found" fromwww.mocky.io
+115: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:14 2020
+115: not in cache
+115: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+115: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+116: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:49 2020
+116: not in cache
+116: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+116: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+117: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:54 2020
+117: not in cache
+117: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+117: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+118: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:19:59 2020
+118: not in cache
+118: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+118: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+119: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:20:04 2020
+119: not in cache
+119: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+119: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+120: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:20:09 2020
+120: not in cache
+120: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+120: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+112: Tunnel closed
+114: Responding "HTTP/1.1 404 Not Found"
+114: NOTE cache control: 
+114: NOTE add to cache
+121: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:20:14 2020
+121: not in cache
+121: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+121: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+113: Responding "HTTP/1.1 200 OK"
+122: CONNECT shavar.services.mozilla.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:23:14 2020
+122: Responding "200 OK"
+123: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:23:14 2020
+123: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+123: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+124: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:23:41 2020
+124: Responding "200 OK"
+125: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 20:23:41 2020
+125: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+125: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+122: Tunnel closed
+100: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:33 2020
+100: Responding "200 OK"
+101: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:33 2020
+101: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+101: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+100: Tunnel closed
+102: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:33 2020
+102: Responding "200 OK"
+103: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:33 2020
+103: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+103: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+102: Tunnel closed
+104: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:34 2020
+104: Responding "200 OK"
+104: Tunnel closed
+105: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:34 2020
+105: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+105: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+106: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:34 2020
+106: Responding "200 OK"
+106: Tunnel closed
+107: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:35 2020
+107: Responding "200 OK"
+107: Tunnel closed
+108: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:35 2020
+108: Responding "200 OK"
+109: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:35 2020
+109: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+109: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+108: Tunnel closed
+110: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:45 2020
+110: Responding "200 OK"
+112: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:45 2020
+112: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+112: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+113: CONNECT ssl.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:47 2020
+113: Responding "200 OK"
+114: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:47 2020
+114: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+114: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+115: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:48 2020
+115: Responding "200 OK"
+116: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:48 2020
+116: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+116: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+117: CONNECT apis.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:50 2020
+117: Responding "200 OK"
+118: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:50 2020
+118: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+118: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+119: CONNECT adservice.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:52 2020
+119: Responding "200 OK"
+120: CONNECT ogs.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:52 2020
+120: Responding "200 OK"
+121: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:52 2020
+121: Responding "200 OK"
+122: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:52 2020
+122: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+122: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+123: CONNECT policies.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:56 2020
+123: Responding "200 OK"
+127: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+124: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+126: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+125: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+128: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+129: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+130: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+128: Responding "200 OK"
+125: Responding "200 OK"
+127: Responding "200 OK"
+124: Responding "200 OK"
+126: Responding "200 OK"
+129: Responding "200 OK"
+130: Responding "200 OK"
+135: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+124: Tunnel closed
+127: Tunnel closed
+135: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+126: Tunnel closed
+129: Tunnel closed
+125: Tunnel closed
+135: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+136: CONNECT play.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+137: CONNECT www.google-analytics.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+136: Responding "200 OK"
+137: Responding "200 OK"
+138: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:39:58 2020
+138: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+138: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+139: CONNECT about.google:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:00 2020
+139: Responding "200 OK"
+140: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:00 2020
+140: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+140: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+141: CONNECT stats.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:01 2020
+141: Responding "200 OK"
+142: CONNECT play.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+142: Responding "200 OK"
+143: CONNECT fonts.googleapis.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+144: CONNECT ajax.googleapis.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+145: CONNECT ajax.googleapis.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+143: Responding "200 OK"
+146: CONNECT ajax.googleapis.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+147: CONNECT ajax.googleapis.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+144: Responding "200 OK"
+146: Responding "200 OK"
+145: Responding "200 OK"
+147: Responding "200 OK"
+151: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+149: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+148: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+150: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+152: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:02 2020
+149: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+148: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+151: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+150: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+152: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+149: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+148: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+151: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+150: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+152: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+145: Tunnel closed
+146: Tunnel closed
+147: Tunnel closed
+153: CONNECT www.googletagmanager.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:04 2020
+153: Responding "200 OK"
+154: CONNECT www.google-analytics.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:06 2020
+154: Responding "200 OK"
+155: CONNECT stats.g.doubleclick.net:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:06 2020
+155: Responding "200 OK"
+156: CONNECT start.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:29 2020
+156: Responding "200 OK"
+157: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:29 2020
+157: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+157: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+159: CONNECT start.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:31 2020
+160: CONNECT start.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:31 2020
+158: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:31 2020
+159: Responding "200 OK"
+160: Responding "200 OK"
+161: CONNECT start.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:31 2020
+161: Responding "200 OK"
+162: CONNECT hm.baidu.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:32 2020
+162: Responding "200 OK"
+163: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:32 2020
+163: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+163: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+158: Responding "200 OK"
+164: POST http://status.rapidssl.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:34 2020
+164: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+164: Received "HTTP/1.1 200 OK" fromstatus.rapidssl.com
+162: Tunnel closed
+158: Tunnel closed
+165: CONNECT home.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:35 2020
+165: Responding "200 OK"
+166: POST http://status.rapidssl.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:35 2020
+166: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+166: Received "HTTP/1.1 200 OK" fromstatus.rapidssl.com
+170: CONNECT home.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:38 2020
+172: CONNECT entry.baidu.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:38 2020
+170: Responding "200 OK"
+167: CONNECT home.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:38 2020
+171: CONNECT home.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:38 2020
+167: Responding "200 OK"
+171: Responding "200 OK"
+175: CONNECT home.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:38 2020
+175: Responding "200 OK"
+172: Responding "200 OK"
+169: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+168: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+173: CONNECT home.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+176: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+177: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+178: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+179: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+182: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+182: not in cache
+173: Responding "200 OK"
+182: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+182: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+185: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+185: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+186: CONNECT www.duba.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+185: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+169: Responding "200 OK"
+177: Responding "200 OK"
+178: Responding "200 OK"
+176: Responding "200 OK"
+168: Responding "200 OK"
+179: Responding "200 OK"
+187: CONNECT static.huohu123.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+189: CONNECT static.huohu123.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+188: CONNECT static.huohu123.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+192: CONNECT static.huohu123.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+191: CONNECT static.huohu123.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+195: CONNECT static.huohu123.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+190: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+193: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+198: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+194: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+197: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+196: CONNECT 03imgmini.eastday.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+199: CONNECT xiazai-fd.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+200: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+201: CONNECT 05imgmini.eastday.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+202: CONNECT 00imgmini.eastday.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+203: CONNECT 02imgmini.eastday.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+204: CONNECT 02imgmini.eastday.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+205: CONNECT fragment2.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:39 2020
+206: CONNECT www.google.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+206: Responding "200 OK"
+186: Responding "200 OK"
+205: Responding "200 OK"
+207: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+207: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+207: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+180: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+183: CONNECT static.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+208: CONNECT api2.firefoxchina.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+195: Responding "200 OK"
+191: Responding "200 OK"
+188: Responding "200 OK"
+189: Responding "200 OK"
+187: Responding "200 OK"
+192: Responding "200 OK"
+180: Responding "200 OK"
+183: Responding "200 OK"
+199: Responding "200 OK"
+201: Responding "200 OK"
+209: POST http://status.rapidssl.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+210: POST http://status.rapidssl.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+211: POST http://status.rapidssl.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:40 2020
+209: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+210: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+211: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+210: Received "HTTP/1.1 200 OK" fromstatus.rapidssl.com
+209: Received "HTTP/1.1 200 OK" fromstatus.rapidssl.com
+211: Received "HTTP/1.1 200 OK" fromstatus.rapidssl.com
+208: Responding "200 OK"
+196: Responding "200 OK"
+212: POST http://status.rapidssl.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:41 2020
+212: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+212: Received "HTTP/1.1 200 OK" fromstatus.rapidssl.com
+197: Responding "200 OK"
+190: Responding "200 OK"
+194: Responding "200 OK"
+193: Responding "200 OK"
+198: Responding "200 OK"
+200: Responding "200 OK"
+203: Responding "200 OK"
+204: Responding "200 OK"
+213: POST http://status.rapidssl.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:42 2020
+213: Requesting "POST http://status.rapidssl.com/ HTTP/1.1" from status.rapidssl.com
+213: Received "HTTP/1.1 200 OK" fromstatus.rapidssl.com
+202: Responding "200 OK"
+214: POST http://ocsp1.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:42 2020
+215: POST http://ocsp1.digicert.com/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:42 2020
+216: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:42 2020
+214: Requesting "POST http://ocsp1.digicert.com/ HTTP/1.1" from ocsp1.digicert.com
+215: Requesting "POST http://ocsp1.digicert.com/ HTTP/1.1" from ocsp1.digicert.com
+214: Received "HTTP/1.1 200 OK" fromocsp1.digicert.com
+215: Received "HTTP/1.1 200 OK" fromocsp1.digicert.com
+217: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:43 2020
+217: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+216: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+217: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+216: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+218: CONNECT gw.alicdn.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:43 2020
+219: CONNECT gw.alicdn.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:43 2020
+220: CONNECT gw.alicdn.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:43 2020
+221: CONNECT gw.alicdn.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:43 2020
+222: CONNECT gw.alicdn.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:43 2020
+223: CONNECT gw.alicdn.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:43 2020
+221: Responding "200 OK"
+219: Responding "200 OK"
+223: Responding "200 OK"
+218: Responding "200 OK"
+222: Responding "200 OK"
+220: Responding "200 OK"
+224: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+224: not in cache
+224: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+224: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+225: POST http://ocsp.dcocsp.cn/ HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+225: Requesting "POST http://ocsp.dcocsp.cn/ HTTP/1.1" from ocsp.dcocsp.cn
+225: Received "HTTP/1.1 200 OK" fromocsp.dcocsp.cn
+190: Tunnel closed
+198: Tunnel closed
+193: Tunnel closed
+226: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+227: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+228: CONNECT b.zol-img.com.cn:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+194: Tunnel closed
+200: Tunnel closed
+199: Tunnel closed
+197: Tunnel closed
+229: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+230: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+231: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:44 2020
+226: Responding "200 OK"
+226: Tunnel closed
+227: Responding "200 OK"
+227: Tunnel closed
+231: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+229: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+230: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+228: Responding "200 OK"
+228: Tunnel closed
+229: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+231: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+230: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+232: POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:45 2020
+232: Requesting "POST http://ocsp2.globalsign.com/gsorganizationvalsha2g2 HTTP/1.1" from ocsp2.globalsign.com
+232: Received "HTTP/1.1 200 OK" fromocsp2.globalsign.com
+233: CONNECT hm.baidu.com:443 HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:45 2020
+233: Responding "200 OK"
+218: Tunnel closed
+221: Tunnel closed
+223: Tunnel closed
+220: Tunnel closed
+222: Tunnel closed
+234: GET http://detectportal.firefox.com/success.txt HTTP/1.1 from 10.197.118.207 @ Fri Feb 28 21:40:49 2020
+234: not in cache
+234: Requesting "GET http://detectportal.firefox.com/success.txt HTTP/1.1" from detectportal.firefox.com
+234: Received "HTTP/1.1 200 OK" fromdetectportal.firefox.com
+100: GET http://people.duke.edu/~bmr23/ece568/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:07 2020
+100: not in cache
+100: Requesting "GET http://people.duke.edu/~bmr23/ece568/ HTTP/1.1" from people.duke.edu
+100: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+100: Responding "HTTP/1.1 200 OK"
+100: NOTE cache control: 
+100: NOTE add to cache
+101: GET http://people.duke.edu/icons/blank.gif HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:07 2020
+101: not in cache
+102: GET http://people.duke.edu/icons/back.gif HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:07 2020
+102: not in cache
+101: Requesting "GET http://people.duke.edu/icons/blank.gif HTTP/1.1" from people.duke.edu
+102: Requesting "GET http://people.duke.edu/icons/back.gif HTTP/1.1" from people.duke.edu
+101: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+101: Responding "HTTP/1.1 200 OK"
+101: NOTE cache control: 
+101: NOTE add to cache
+102: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+102: Responding "HTTP/1.1 200 OK"
+102: NOTE cache control: 
+102: NOTE add to cache
+103: GET http://people.duke.edu/icons/text.gif HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:07 2020
+103: not in cache
+104: GET http://people.duke.edu/icons/folder.gif HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:07 2020
+104: not in cache
+105: GET http://people.duke.edu/icons/layout.gif HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:07 2020
+105: not in cache
+103: Requesting "GET http://people.duke.edu/icons/text.gif HTTP/1.1" from people.duke.edu
+105: Requesting "GET http://people.duke.edu/icons/layout.gif HTTP/1.1" from people.duke.edu
+104: Requesting "GET http://people.duke.edu/icons/folder.gif HTTP/1.1" from people.duke.edu
+105: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+105: Responding "HTTP/1.1 200 OK"
+105: NOTE cache control: 
+105: NOTE add to cache
+104: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+104: Responding "HTTP/1.1 200 OK"
+103: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+104: NOTE cache control: 
+103: Responding "HTTP/1.1 200 OK"
+104: NOTE add to cache
+103: NOTE cache control: 
+103: NOTE add to cache
+106: GET http://people.duke.edu/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:07 2020
+106: not in cache
+106: Requesting "GET http://people.duke.edu/favicon.ico HTTP/1.1" from people.duke.edu
+106: Received "HTTP/1.1 404 Not Found" frompeople.duke.edu
+106: Responding "HTTP/1.1 404 Not Found"
+106: NOTE cache control: 
+106: NOTE add to cache
+107: GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:11 2020
+107: not in cache
+107: Requesting "GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1" from people.duke.edu
+107: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+107: Responding "HTTP/1.1 200 OK"
+107: NOTE cache control: 
+107: NOTE add to cache
+108: GET http://people.duke.edu/~bmr23/style.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:11 2020
+108: not in cache
+108: Requesting "GET http://people.duke.edu/~bmr23/style.css HTTP/1.1" from people.duke.edu
+108: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+108: Responding "HTTP/1.1 200 OK"
+108: NOTE cache control: 
+108: NOTE add to cache
+109: CONNECT www.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:36 2020
+109: Responding "200 OK"
+110: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:36 2020
+110: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+110: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+111: CONNECT ssl.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:38 2020
+111: Responding "200 OK"
+112: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:38 2020
+112: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+112: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+113: CONNECT www.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:38 2020
+113: Responding "200 OK"
+114: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:38 2020
+114: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+114: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+115: CONNECT apis.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:41 2020
+115: Responding "200 OK"
+116: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:41 2020
+116: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+116: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+115: Tunnel closed
+117: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:42 2020
+117: Responding "200 OK"
+118: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:42 2020
+118: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+118: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+119: CONNECT apis.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+119: Responding "200 OK"
+120: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+120: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+120: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+121: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+121: Responding "200 OK"
+122: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+122: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+122: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+123: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+124: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+123: Responding "200 OK"
+125: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+124: Responding "200 OK"
+126: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+125: Responding "200 OK"
+127: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+126: Responding "200 OK"
+127: Responding "200 OK"
+128: CONNECT i.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+129: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+128: Responding "200 OK"
+130: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:43 2020
+129: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+130: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+129: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+130: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+131: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:44 2020
+131: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+131: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+132: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:45 2020
+132: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+132: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+133: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:45 2020
+133: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+121: Tunnel closed
+133: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+134: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:45 2020
+134: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+134: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+124: Tunnel closed
+127: Tunnel closed
+126: Tunnel closed
+125: Tunnel closed
+128: Tunnel closed
+135: CONNECT adservice.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:48 2020
+136: CONNECT ogs.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:48 2020
+135: Responding "200 OK"
+136: Responding "200 OK"
+137: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:48 2020
+137: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+138: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:48 2020
+137: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+138: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+138: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+139: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:50 2020
+139: Responding "200 OK"
+140: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:50 2020
+140: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+140: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+139: Tunnel closed
+141: CONNECT www.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+141: Responding "200 OK"
+142: CONNECT www.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+143: CONNECT www.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+144: CONNECT www.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+145: CONNECT www.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+146: CONNECT www.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+142: Responding "200 OK"
+143: Responding "200 OK"
+144: Responding "200 OK"
+145: Responding "200 OK"
+146: Responding "200 OK"
+147: CONNECT agility.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+148: CONNECT d2lv4zbk7v5f93.cloudfront.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+151: CONNECT i.cdn.turner.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+152: CONNECT i.cdn.turner.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+153: CONNECT consent.truste.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+147: Responding "200 OK"
+148: Responding "200 OK"
+153: Responding "200 OK"
+151: Responding "200 OK"
+152: Responding "200 OK"
+152: Tunnel closed
+155: CONNECT fonts.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+154: CONNECT fonts.googleapis.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:52 2020
+155: Responding "200 OK"
+154: Responding "200 OK"
+156: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:53 2020
+157: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:53 2020
+156: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+157: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+156: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+157: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+154: Tunnel closed
+149: CONNECT cdn.nba.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+150: CONNECT cdn.nba.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+149: Responding "200 OK"
+150: Responding "200 OK"
+158: CONNECT dpm.demdex.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+158: Responding "200 OK"
+160: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+159: CONNECT i2.cdn.turner.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+161: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+162: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+163: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:54 2020
+150: Tunnel closed
+162: Responding "200 OK"
+160: Responding "200 OK"
+161: Responding "200 OK"
+163: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+163: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+164: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+165: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+166: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+164: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+165: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+166: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+164: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+166: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+165: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+167: CONNECT cdn.jsdelivr.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+167: Responding "200 OK"
+168: CONNECT consent.trustarc.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+159: Responding "200 OK"
+168: Responding "200 OK"
+169: CONNECT s.cdn.turner.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+169: Responding "200 OK"
+170: CONNECT data.nba.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+170: Responding "200 OK"
+171: CONNECT data.nba.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+171: Responding "200 OK"
+172: CONNECT strappii-view.prod.nbad.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+174: CONNECT time.ten.ngtv.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+175: CONNECT i.cdn.turner.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+172: Responding "200 OK"
+175: Responding "200 OK"
+171: Tunnel closed
+174: Responding "200 OK"
+176: POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+176: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+176: Received "HTTP/1.1 200 OK" fromocsp.sca1b.amazontrust.com
+177: CONNECT cdn.cookielaw.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+177: Responding "200 OK"
+178: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+179: CONNECT d1z2jf7jlzjs58.cloudfront.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+178: Responding "200 OK"
+179: Responding "200 OK"
+180: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+181: CONNECT fonts.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+180: Responding "200 OK"
+181: Responding "200 OK"
+182: CONNECT cdn3.optimizely.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:55 2020
+182: Responding "200 OK"
+183: CONNECT 5165526.fls.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+183: Responding "200 OK"
+184: CONNECT www.googletagmanager.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+184: Responding "200 OK"
+185: CONNECT js-sec.indexww.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+186: CONNECT www.ugdturner.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+185: Responding "200 OK"
+188: CONNECT geo.ngtv.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+187: CONNECT geo.ngtv.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+189: CONNECT geo.ngtv.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+186: Responding "200 OK"
+188: Responding "200 OK"
+187: Responding "200 OK"
+189: Responding "200 OK"
+191: POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:56 2020
+191: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+191: Received "HTTP/1.1 200 OK" fromocsp.sca1b.amazontrust.com
+192: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+193: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+194: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+192: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+193: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+194: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+162: Tunnel closed
+181: Tunnel closed
+160: Tunnel closed
+192: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+193: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+194: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+180: Tunnel closed
+195: CONNECT cdn.cookielaw.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+195: Responding "200 OK"
+196: CONNECT srv-2020-02-29-03.config.parsely.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+197: CONNECT api.nba.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+196: Responding "200 OK"
+197: Responding "200 OK"
+198: CONNECT smetrics.nba.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+199: CONNECT ib.adnxs.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+200: CONNECT bidder.criteo.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+201: CONNECT fastlane.rubiconproject.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+202: CONNECT fastlane.rubiconproject.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+203: CONNECT as-sec.casalemedia.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+198: Responding "200 OK"
+200: Responding "200 OK"
+202: Responding "200 OK"
+201: Responding "200 OK"
+203: Responding "200 OK"
+199: Responding "200 OK"
+204: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:57 2020
+204: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+204: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+203: Tunnel closed
+202: Tunnel closed
+201: Tunnel closed
+200: Tunnel closed
+199: Tunnel closed
+205: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:58 2020
+205: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+205: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+206: POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:59 2020
+208: POST http://ocsp.pki.goog/gts1d2 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:59 2020
+207: POST http://ocsp.pki.goog/gts1d2 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:59 2020
+208: Requesting "POST http://ocsp.pki.goog/gts1d2 HTTP/1.1" from ocsp.pki.goog
+207: Requesting "POST http://ocsp.pki.goog/gts1d2 HTTP/1.1" from ocsp.pki.goog
+206: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+209: CONNECT service-apis-us-east-1.prod.nbad.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:59 2020
+178: Tunnel closed
+208: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+207: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+210: CONNECT match.adsrvr.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:59 2020
+211: CONNECT api.rlcdn.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:59 2020
+206: Received "HTTP/1.1 200 OK" fromocsp.sca1b.amazontrust.com
+210: Responding "200 OK"
+211: Responding "200 OK"
+209: Responding "200 OK"
+212: POST http://ocsp.pki.goog/gts1d2 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:06:59 2020
+212: Requesting "POST http://ocsp.pki.goog/gts1d2 HTTP/1.1" from ocsp.pki.goog
+212: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+213: CONNECT adservice.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:00 2020
+213: Responding "200 OK"
+214: POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:01 2020
+214: Requesting "POST http://ocsp.sca1b.amazontrust.com/ HTTP/1.1" from ocsp.sca1b.amazontrust.com
+214: Received "HTTP/1.1 200 OK" fromocsp.sca1b.amazontrust.com
+187: Tunnel closed
+189: Tunnel closed
+215: CONNECT acdn.adnxs.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:02 2020
+216: CONNECT eus.rubiconproject.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:02 2020
+217: CONNECT geolocation.onetrust.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:02 2020
+215: Responding "200 OK"
+216: Responding "200 OK"
+217: Responding "200 OK"
+218: CONNECT secure.adnxs.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:03 2020
+218: Responding "200 OK"
+225: CONNECT cdn.adsafeprotected.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+224: CONNECT c.amazon-adsystem.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+223: CONNECT cdn.branch.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+222: CONNECT static.ads-twitter.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+221: CONNECT cdn.keywee.co:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+220: CONNECT secure-us.imrworldwide.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+219: CONNECT ad.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+230: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+229: CONNECT static.criteo.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+228: CONNECT securepubads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+226: CONNECT cdn.krxd.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+227: CONNECT connect.facebook.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+230: Responding "200 OK"
+220: Responding "200 OK"
+228: Responding "200 OK"
+221: Responding "200 OK"
+224: Responding "200 OK"
+229: Responding "200 OK"
+231: CONNECT srv-2020-02-29-03.pixel.parsely.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+219: Responding "200 OK"
+227: Responding "200 OK"
+223: Responding "200 OK"
+226: Responding "200 OK"
+225: Responding "200 OK"
+222: Responding "200 OK"
+231: Responding "200 OK"
+232: CONNECT sb.scorecardresearch.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:04 2020
+232: Responding "200 OK"
+233: CONNECT as-sec.casalemedia.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:05 2020
+233: Responding "200 OK"
+234: CONNECT www.googleadservices.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:05 2020
+235: CONNECT sc-static.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:05 2020
+234: Responding "200 OK"
+236: CONNECT c.amazon-adsystem.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:05 2020
+235: Responding "200 OK"
+236: Responding "200 OK"
+237: CONNECT s.amazon-adsystem.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:06 2020
+237: Responding "200 OK"
+242: CONNECT beacon.krxd.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+241: CONNECT r.turn.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+240: CONNECT beacon.krxd.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+243: CONNECT cdn.adgrx.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+238: CONNECT pubads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+244: CONNECT api.adsymptotic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+245: CONNECT rtd-tm.everesttech.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+239: CONNECT match.rundsp.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+246: CONNECT beacon.krxd.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+238: Responding "200 OK"
+240: Responding "200 OK"
+242: Responding "200 OK"
+245: Responding "200 OK"
+246: Responding "200 OK"
+239: Responding "200 OK"
+241: Responding "200 OK"
+247: CONNECT pixel.adsafeprotected.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+248: CONNECT app.link:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+247: Responding "200 OK"
+243: Responding "200 OK"
+248: Responding "200 OK"
+249: CONNECT ff.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+250: CONNECT static.criteo.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+251: CONNECT t.co:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+249: Responding "200 OK"
+252: CONNECT t.co:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:07 2020
+250: Responding "200 OK"
+244: Responding "200 OK"
+251: Responding "200 OK"
+252: Responding "200 OK"
+254: CONNECT consumer.krxd.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:08 2020
+253: CONNECT pixel.keywee.co:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:08 2020
+253: Responding "200 OK"
+254: Responding "200 OK"
+255: CONNECT s.yimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:09 2020
+255: Responding "200 OK"
+256: CONNECT analytics.twitter.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:09 2020
+256: Responding "200 OK"
+257: CONNECT pixel.adsafeprotected.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:09 2020
+257: Responding "200 OK"
+258: CONNECT www.facebook.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:10 2020
+258: Responding "200 OK"
+241: Tunnel closed
+260: CONNECT www.facebook.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:10 2020
+260: Responding "200 OK"
+259: CONNECT www.facebook.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:10 2020
+259: Responding "200 OK"
+240: Tunnel closed
+261: CONNECT rtb.adgrx.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:11 2020
+261: Responding "200 OK"
+246: Tunnel closed
+262: CONNECT api2.branch.io:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:11 2020
+262: Responding "200 OK"
+263: CONNECT d.runadtag.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:11 2020
+264: CONNECT www.facebook.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:11 2020
+264: Responding "200 OK"
+265: CONNECT s.yimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:11 2020
+265: Responding "200 OK"
+263: ERROR failed to get server address
+198: Tunnel closed
+260: Tunnel closed
+259: Tunnel closed
+264: Tunnel closed
+252: Tunnel closed
+266: CONNECT cdn.ampproject.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+267: CONNECT cdn.ampproject.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+269: CONNECT cdn.ampproject.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+268: CONNECT cdn.ampproject.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+271: CONNECT cdn.ampproject.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+270: CONNECT cdn.ampproject.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+270: Responding "200 OK"
+266: Responding "200 OK"
+268: Responding "200 OK"
+267: Responding "200 OK"
+269: Responding "200 OK"
+271: Responding "200 OK"
+272: CONNECT tpc.googlesyndication.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+273: CONNECT www.googletagservices.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+274: CONNECT z.moatads.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+272: Responding "200 OK"
+273: Responding "200 OK"
+274: Responding "200 OK"
+275: CONNECT pagead2.googlesyndication.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+276: CONNECT www.googletagservices.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+276: Responding "200 OK"
+275: Responding "200 OK"
+277: CONNECT tpc.googlesyndication.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+278: CONNECT tpc.googlesyndication.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+279: CONNECT tpc.googlesyndication.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:13 2020
+277: Responding "200 OK"
+278: Responding "200 OK"
+279: Responding "200 OK"
+269: Tunnel closed
+267: Tunnel closed
+270: Tunnel closed
+268: Tunnel closed
+266: Tunnel closed
+280: CONNECT d.agkn.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:15 2020
+280: Responding "200 OK"
+141: Tunnel closed
+142: Tunnel closed
+271: Tunnel closed
+282: CONNECT privacyportal-eu.onetrust.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:17 2020
+282: Responding "200 OK"
+284: CONNECT tpc.googlesyndication.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:17 2020
+283: CONNECT tpc.googlesyndication.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:17 2020
+283: Responding "200 OK"
+284: Responding "200 OK"
+273: Tunnel closed
+284: Tunnel closed
+278: Tunnel closed
+279: Tunnel closed
+283: Tunnel closed
+285: CONNECT geo.moatads.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:18 2020
+285: Responding "200 OK"
+286: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:18 2020
+287: CONNECT www.summerhamster.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:18 2020
+287: Responding "200 OK"
+286: Responding "200 OK"
+285: Tunnel closed
+288: CONNECT www.youtube.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:18 2020
+287: Tunnel closed
+288: Responding "200 OK"
+277: Tunnel closed
+290: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+289: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+291: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+293: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+294: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+292: CONNECT yt3.ggpht.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+290: Responding "200 OK"
+289: Responding "200 OK"
+291: Responding "200 OK"
+294: Responding "200 OK"
+292: Responding "200 OK"
+293: Responding "200 OK"
+295: CONNECT accounts.google.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+295: Responding "200 OK"
+296: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:21 2020
+296: Responding "200 OK"
+294: Tunnel closed
+291: Tunnel closed
+293: Tunnel closed
+289: Tunnel closed
+297: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:23 2020
+298: CONNECT s.ytimg.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:23 2020
+297: Responding "200 OK"
+298: Responding "200 OK"
+218: Tunnel closed
+261: Tunnel closed
+292: Tunnel closed
+297: Tunnel closed
+159: Tunnel closed
+151: Tunnel closed
+175: Tunnel closed
+197: Tunnel closed
+247: Tunnel closed
+174: Tunnel closed
+149: Tunnel closed
+299: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:47 2020
+300: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:47 2020
+301: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:47 2020
+302: CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:47 2020
+299: Responding "200 OK"
+301: Responding "200 OK"
+300: Responding "200 OK"
+302: Responding "200 OK"
+257: Tunnel closed
+231: Tunnel closed
+303: GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:53 2020
+303: not in cache
+303: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+303: Received "HTTP/1.1 200 OK" fromwww.httpwatch.com
+303: NOTE received chunked content
+303: Responding "HTTP/1.1 200 OK"
+303: NOTE cache control: no-cache, no-store
+303: NOTE add to cache
+304: GET http://www.httpwatch.com/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:07:58 2020
+304: not in cache
+304: Requesting "GET http://www.httpwatch.com/favicon.ico HTTP/1.1" from www.httpwatch.com
+304: Received "HTTP/1.1 200 OK" fromwww.httpwatch.com
+305: GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:00 2020
+305: in cache, but expired at Mon Dec 25 13:01:04 1899
+
+305: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from www.httpwatch.com
+305: Received "HTTP/1.1 200 OK" fromwww.httpwatch.com
+305: NOTE received chunked content
+196: Tunnel closed
+158: Tunnel closed
+306: GET http://www.httpwatch.com/favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:05 2020
+306: not in cache
+306: Requesting "GET http://www.httpwatch.com/favicon.ico HTTP/1.1" from www.httpwatch.com
+306: Received "HTTP/1.1 200 OK" fromwww.httpwatch.com
+237: Tunnel closed
+307: GET http://scratchpads.eu/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:34 2020
+307: not in cache
+307: Requesting "GET http://scratchpads.eu/ HTTP/1.1" from scratchpads.eu
+307: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+307: Responding "HTTP/1.1 200 OK"
+307: NOTE cache control: public, max-age=10800
+307: NOTE add to cache
+309: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+309: not in cache
+308: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_TVbmSUAcwaKFzEbOHjIKLegDOGb5VarTwC2XWGOrWBY.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+308: not in cache
+310: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_zWfPetBrjxwjs6Iur4IGyOU5Li5P2UPXpPjft7fFsiw.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+310: not in cache
+311: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_nDOdboOWOxuwprQ8VCEQNCEX7EWhtQgaGpgY20608zE.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+311: not in cache
+312: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_7Zm-__T-_BMsdxTKMPHiKgvZwzhQ7yb09IElsrSWiG0.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+312: not in cache
+314: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_BL3mHfWYiljhQ6gicOY18bJRHdPHtOiPcefzcmmXVHI.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+314: not in cache
+313: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+313: not in cache
+315: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+315: not in cache
+317: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_PGQHz5MowqAfkEugsyyKAE8vVQqBQlVnns_ozIrEgec.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+317: not in cache
+316: GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/google/js.js?v=3 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+316: not in cache
+318: GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/markerclusterer.min.js?v=2.0.7 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+318: not in cache
+319: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_pMrwcbvpDXT1SnFvSusH7rxfGavnlx1ScSvKOpgngy0.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+319: not in cache
+322: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uGWe1aPuvEqYCsGQPKFsniFXJo4s0qKtIjJ5wB-6Ge8.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+322: not in cache
+320: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_dUQTYuISZzc-t0bB1zfvC2FLs2kW9u2NwLWgkTKvIcs.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+320: not in cache
+323: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_h1IEoEjAEq09pEzgSyvMwHG8vwtkoObu09HUZtMAcWY.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+323: not in cache
+321: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_AJeOk7XNmqaDXSQtyI6FyX1YyO3z7i21q0iZ1vr0K3A.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+321: not in cache
+324: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uwrfBOJCFVq42muTMjrq2bD-RUh8NNq_fZRTb6dsNb4.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:39 2020
+324: not in cache
+309: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css HTTP/1.1" from scratchpads.eu
+308: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_TVbmSUAcwaKFzEbOHjIKLegDOGb5VarTwC2XWGOrWBY.css HTTP/1.1" from scratchpads.eu
+310: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_zWfPetBrjxwjs6Iur4IGyOU5Li5P2UPXpPjft7fFsiw.css HTTP/1.1" from scratchpads.eu
+311: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_nDOdboOWOxuwprQ8VCEQNCEX7EWhtQgaGpgY20608zE.css HTTP/1.1" from scratchpads.eu
+312: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_7Zm-__T-_BMsdxTKMPHiKgvZwzhQ7yb09IElsrSWiG0.css HTTP/1.1" from scratchpads.eu
+314: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_BL3mHfWYiljhQ6gicOY18bJRHdPHtOiPcefzcmmXVHI.css HTTP/1.1" from scratchpads.eu
+313: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css HTTP/1.1" from scratchpads.eu
+315: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js HTTP/1.1" from scratchpads.eu
+316: Requesting "GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/google/js.js?v=3 HTTP/1.1" from scratchpads.eu
+317: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_PGQHz5MowqAfkEugsyyKAE8vVQqBQlVnns_ozIrEgec.js HTTP/1.1" from scratchpads.eu
+318: Requesting "GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/markerclusterer.min.js?v=2.0.7 HTTP/1.1" from scratchpads.eu
+319: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_pMrwcbvpDXT1SnFvSusH7rxfGavnlx1ScSvKOpgngy0.js HTTP/1.1" from scratchpads.eu
+320: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_dUQTYuISZzc-t0bB1zfvC2FLs2kW9u2NwLWgkTKvIcs.js HTTP/1.1" from scratchpads.eu
+322: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uGWe1aPuvEqYCsGQPKFsniFXJo4s0qKtIjJ5wB-6Ge8.js HTTP/1.1" from scratchpads.eu
+321: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_AJeOk7XNmqaDXSQtyI6FyX1YyO3z7i21q0iZ1vr0K3A.js HTTP/1.1" from scratchpads.eu
+323: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_h1IEoEjAEq09pEzgSyvMwHG8vwtkoObu09HUZtMAcWY.js HTTP/1.1" from scratchpads.eu
+324: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uwrfBOJCFVq42muTMjrq2bD-RUh8NNq_fZRTb6dsNb4.js HTTP/1.1" from scratchpads.eu
+309: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+310: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+308: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+311: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+313: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+312: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+314: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+321: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+318: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+319: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+315: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+322: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+324: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+316: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+317: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+320: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+323: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+311: Responding "HTTP/1.1 200 OK"
+311: NOTE cache control: max-age=1209600
+311: NOTE add to cache
+322: Responding "HTTP/1.1 200 OK"
+322: NOTE cache control: max-age=1209600
+310: Responding "HTTP/1.1 200 OK"
+322: NOTE add to cache
+310: NOTE cache control: max-age=1209600
+310: NOTE add to cache
+315: Responding "HTTP/1.1 200 OK"
+317: Responding "HTTP/1.1 200 OK"
+309: Responding "HTTP/1.1 200 OK"
+313: Responding "HTTP/1.1 200 OK"
+317: NOTE cache control: max-age=1209600
+312: Responding "HTTP/1.1 200 OK"
+317: NOTE add to cache
+312: NOTE cache control: max-age=1209600
+312: NOTE add to cache
+323: Responding "HTTP/1.1 200 OK"
+323: NOTE cache control: max-age=1209600
+323: NOTE add to cache
+319: Responding "HTTP/1.1 200 OK"
+318: Responding "HTTP/1.1 200 OK"
+315: NOTE cache control: max-age=1209600
+315: NOTE add to cache
+309: NOTE cache control: max-age=1209600
+309: NOTE add to cache
+313: NOTE cache control: max-age=1209600
+313: NOTE add to cache
+319: NOTE cache control: max-age=1209600
+319: NOTE add to cache
+318: NOTE cache control: max-age=1209600
+308: Responding "HTTP/1.1 200 OK"
+318: NOTE add to cache
+308: NOTE cache control: max-age=1209600
+308: NOTE add to cache
+314: Responding "HTTP/1.1 200 OK"
+324: Responding "HTTP/1.1 200 OK"
+324: NOTE cache control: max-age=1209600
+324: NOTE add to cache
+320: Responding "HTTP/1.1 200 OK"
+320: NOTE cache control: max-age=1209600
+320: NOTE add to cache
+321: Responding "HTTP/1.1 200 OK"
+321: NOTE cache control: max-age=1209600
+321: NOTE add to cache
+314: NOTE cache control: max-age=1209600
+314: NOTE add to cache
+316: Responding "HTTP/1.1 200 OK"
+316: NOTE cache control: max-age=1209600
+316: NOTE add to cache
+335: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-nhm.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+335: not in cache
+332: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-einfra.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+332: not in cache
+334: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-vibrant.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+334: not in cache
+329: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-ner.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+329: not in cache
+330: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Africhthy.png?itok=tEmxtnmW HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+330: not in cache
+328: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Solanaceae%20Source%20case%20study.png?itok=4xwKxoN9 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+328: not in cache
+333: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+331: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-emonocot.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+327: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Sampled%20Red%20List%20Index%20for%20Plants%202013-03-21%2012-08-09.png?itok=l6SQt-ym HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+333: not in cache
+327: not in cache
+326: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+326: not in cache
+331: not in cache
+336: GET http://scratchpads.eu/sites/all/modules/custom/gm3/dev/null HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+336: not in cache
+337: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/logo-green.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:44 2020
+337: not in cache
+338: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/search-icon.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+338: not in cache
+339: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/octopus-square.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+339: not in cache
+330: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Africhthy.png?itok=tEmxtnmW HTTP/1.1" from scratchpads.eu
+329: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-ner.png HTTP/1.1" from scratchpads.eu
+334: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-vibrant.png HTTP/1.1" from scratchpads.eu
+333: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1" from scratchpads.eu
+335: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-nhm.png HTTP/1.1" from scratchpads.eu
+327: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Sampled%20Red%20List%20Index%20for%20Plants%202013-03-21%2012-08-09.png?itok=l6SQt-ym HTTP/1.1" from scratchpads.eu
+340: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/fern-square.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+340: not in cache
+341: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/weevil-square.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+328: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Solanaceae%20Source%20case%20study.png?itok=4xwKxoN9 HTTP/1.1" from scratchpads.eu
+341: not in cache
+326: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1" from scratchpads.eu
+331: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-emonocot.png HTTP/1.1" from scratchpads.eu
+332: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-einfra.png HTTP/1.1" from scratchpads.eu
+342: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/flower-big.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+342: not in cache
+345: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-create.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+345: not in cache
+343: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu.woff HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+343: not in cache
+344: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-training.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+344: not in cache
+346: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-sandbox.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+346: not in cache
+336: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/dev/null HTTP/1.1" from scratchpads.eu
+347: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-ambassador.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+347: not in cache
+348: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/common.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+348: not in cache
+349: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/map.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+349: not in cache
+350: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/util.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+350: not in cache
+351: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/marker.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+351: not in cache
+337: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/logo-green.png HTTP/1.1" from scratchpads.eu
+352: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-develop.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+352: not in cache
+338: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/search-icon.png HTTP/1.1" from scratchpads.eu
+353: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-read.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+353: not in cache
+354: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/overlay.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+354: not in cache
+339: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/octopus-square.png HTTP/1.1" from scratchpads.eu
+340: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/fern-square.png HTTP/1.1" from scratchpads.eu
+341: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/weevil-square.png HTTP/1.1" from scratchpads.eu
+329: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+334: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+333: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+331: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+330: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+328: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+335: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+342: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/flower-big.png HTTP/1.1" from scratchpads.eu
+326: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+327: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+355: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-join.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+355: not in cache
+332: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+345: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-create.png HTTP/1.1" from scratchpads.eu
+343: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu.woff HTTP/1.1" from scratchpads.eu
+356: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-signup.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+356: not in cache
+344: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-training.png HTTP/1.1" from scratchpads.eu
+357: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/feed-icon.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+357: not in cache
+346: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-sandbox.png HTTP/1.1" from scratchpads.eu
+358: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/twitter.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+358: not in cache
+336: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+347: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-ambassador.png HTTP/1.1" from scratchpads.eu
+348: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/common.js HTTP/1.1" from scratchpads.eu
+359: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-gray.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+359: not in cache
+349: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/map.js HTTP/1.1" from scratchpads.eu
+350: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/util.js HTTP/1.1" from scratchpads.eu
+351: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/marker.js HTTP/1.1" from scratchpads.eu
+352: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-develop.png HTTP/1.1" from scratchpads.eu
+354: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/overlay.js HTTP/1.1" from scratchpads.eu
+338: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+353: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-read.png HTTP/1.1" from scratchpads.eu
+337: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+360: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu-Medium.woff HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+360: not in cache
+355: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-join.png HTTP/1.1" from scratchpads.eu
+339: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+345: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+342: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+340: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+343: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+361: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+361: not in cache
+356: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-signup.png HTTP/1.1" from scratchpads.eu
+341: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+362: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-GREY.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:45 2020
+362: not in cache
+344: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+357: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/feed-icon.png HTTP/1.1" from scratchpads.eu
+358: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/twitter.png HTTP/1.1" from scratchpads.eu
+346: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+359: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-gray.png HTTP/1.1" from scratchpads.eu
+347: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+349: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+348: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+350: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+350: NOTE received chunked content
+352: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+351: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+353: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+354: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+360: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu-Medium.woff HTTP/1.1" from scratchpads.eu
+355: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+361: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1" from scratchpads.eu
+356: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+362: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-GREY.png HTTP/1.1" from scratchpads.eu
+357: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+358: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+359: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+360: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+361: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+362: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+148: Tunnel closed
+286: Tunnel closed
+302: Tunnel closed
+301: Tunnel closed
+299: Tunnel closed
+300: Tunnel closed
+363: CONNECT www.google-analytics.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:48 2020
+363: Responding "200 OK"
+329: Responding "HTTP/1.1 200 OK"
+329: NOTE cache control: max-age=1209600
+334: Responding "HTTP/1.1 200 OK"
+331: Responding "HTTP/1.1 200 OK"
+329: NOTE add to cache
+338: Responding "HTTP/1.1 200 OK"
+333: Responding "HTTP/1.1 200 OK"
+338: NOTE cache control: max-age=1209600
+338: NOTE add to cache
+333: NOTE cache control: max-age=1209600
+336: Responding "HTTP/1.1 200 OK"
+337: Responding "HTTP/1.1 200 OK"
+335: Responding "HTTP/1.1 200 OK"
+333: NOTE add to cache
+334: NOTE cache control: max-age=1209600
+334: NOTE add to cache
+336: NOTE cache control: max-age=1209600
+336: NOTE add to cache
+331: NOTE cache control: max-age=1209600
+331: NOTE add to cache
+337: NOTE cache control: max-age=1209600
+337: NOTE add to cache
+335: NOTE cache control: max-age=1209600
+335: NOTE add to cache
+332: Responding "HTTP/1.1 200 OK"
+332: NOTE cache control: max-age=1209600
+332: NOTE add to cache
+364: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/stats.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+364: not in cache
+365: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-ORANGE.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+365: not in cache
+366: GET http://scratchpads.eu/sites/scratchpads.eu/files/scratchy_favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+366: not in cache
+367: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-green.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+367: not in cache
+328: Responding "HTTP/1.1 200 OK"
+326: Responding "HTTP/1.1 200 OK"
+326: NOTE cache control: max-age=1209600
+326: NOTE add to cache
+347: Responding "HTTP/1.1 200 OK"
+347: NOTE cache control: max-age=1209600
+347: NOTE add to cache
+339: Responding "HTTP/1.1 200 OK"
+340: Responding "HTTP/1.1 200 OK"
+353: Responding "HTTP/1.1 200 OK"
+348: Responding "HTTP/1.1 200 OK"
+344: Responding "HTTP/1.1 200 OK"
+345: Responding "HTTP/1.1 200 OK"
+349: Responding "HTTP/1.1 200 OK"
+327: Responding "HTTP/1.1 200 OK"
+354: Responding "HTTP/1.1 200 OK"
+352: Responding "HTTP/1.1 200 OK"
+346: Responding "HTTP/1.1 200 OK"
+341: Responding "HTTP/1.1 200 OK"
+339: NOTE cache control: max-age=1209600
+339: NOTE add to cache
+340: NOTE cache control: max-age=1209600
+340: NOTE add to cache
+353: NOTE cache control: max-age=1209600
+353: NOTE add to cache
+327: NOTE cache control: max-age=1209600
+351: Responding "HTTP/1.1 200 OK"
+343: Responding "HTTP/1.1 200 OK"
+327: NOTE add to cache
+344: NOTE cache control: max-age=1209600
+344: NOTE add to cache
+345: NOTE cache control: max-age=1209600
+345: NOTE add to cache
+354: NOTE cache control: max-age=1209600
+354: NOTE add to cache
+328: NOTE cache control: max-age=1209600
+328: NOTE add to cache
+352: NOTE cache control: max-age=1209600
+352: NOTE add to cache
+346: NOTE cache control: max-age=1209600
+346: NOTE add to cache
+348: NOTE cache control: max-age=1209600
+348: NOTE add to cache
+341: NOTE cache control: max-age=1209600
+341: NOTE add to cache
+351: NOTE cache control: max-age=1209600
+351: NOTE add to cache
+343: NOTE cache control: max-age=1209600
+343: NOTE add to cache
+349: NOTE cache control: max-age=1209600
+349: NOTE add to cache
+368: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Solanaceae%20Source%20case%20study.png?itok=4xwKxoN9 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+368: in cache, valid
+330: Responding "HTTP/1.1 200 OK"
+330: NOTE cache control: max-age=1209600
+330: NOTE add to cache
+370: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Africhthy.png?itok=tEmxtnmW HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+369: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+369: not in cache
+370: in cache, valid
+371: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Sampled%20Red%20List%20Index%20for%20Plants%202013-03-21%2012-08-09.png?itok=l6SQt-ym HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+371: in cache, valid
+364: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/stats.js HTTP/1.1" from scratchpads.eu
+365: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-ORANGE.png HTTP/1.1" from scratchpads.eu
+366: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/scratchy_favicon.ico HTTP/1.1" from scratchpads.eu
+367: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-green.png HTTP/1.1" from scratchpads.eu
+369: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1" from scratchpads.eu
+355: Responding "HTTP/1.1 200 OK"
+355: NOTE cache control: max-age=1209600
+355: NOTE add to cache
+359: Responding "HTTP/1.1 200 OK"
+359: NOTE cache control: max-age=1209600
+357: Responding "HTTP/1.1 200 OK"
+359: NOTE add to cache
+357: NOTE cache control: max-age=1209600
+357: NOTE add to cache
+356: Responding "HTTP/1.1 200 OK"
+356: NOTE cache control: max-age=1209600
+356: NOTE add to cache
+342: Responding "HTTP/1.1 200 OK"
+360: Responding "HTTP/1.1 200 OK"
+360: NOTE cache control: max-age=1209600
+360: NOTE add to cache
+358: Responding "HTTP/1.1 200 OK"
+358: NOTE cache control: max-age=1209600
+358: NOTE add to cache
+342: NOTE cache control: max-age=1209600
+342: NOTE add to cache
+372: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/onion.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+372: not in cache
+373: CONNECT maps.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+373: Responding "200 OK"
+377: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+375: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+374: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+376: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+378: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+365: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+366: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+364: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+379: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+380: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/controls.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+380: not in cache
+369: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+367: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+362: Responding "HTTP/1.1 200 OK"
+362: NOTE cache control: max-age=1209600
+362: NOTE add to cache
+361: Responding "HTTP/1.1 200 OK"
+361: NOTE cache control: max-age=1209600
+361: NOTE add to cache
+372: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/onion.js HTTP/1.1" from scratchpads.eu
+381: GET http://cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:50 2020
+381: not in cache
+380: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/controls.js HTTP/1.1" from scratchpads.eu
+381: Requesting "GET http://cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png HTTP/1.1" from cdn.rawgit.com
+381: Received "HTTP/1.1 301 Moved Permanently" fromcdn.rawgit.com
+372: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+377: Responding "200 OK"
+379: Responding "200 OK"
+375: Responding "200 OK"
+376: Responding "200 OK"
+378: Responding "200 OK"
+374: Responding "200 OK"
+380: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+376: Tunnel closed
+377: Tunnel closed
+374: Tunnel closed
+375: Tunnel closed
+378: Tunnel closed
+169: Tunnel closed
+182: Tunnel closed
+381: Responding "HTTP/1.1 301 Moved Permanently"
+381: NOTE cache control: 
+381: NOTE add to cache
+382: CONNECT cdn.rawgit.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:54 2020
+382: Responding "200 OK"
+185: Tunnel closed
+365: Responding "HTTP/1.1 200 OK"
+365: NOTE cache control: max-age=1209600
+365: NOTE add to cache
+364: Responding "HTTP/1.1 200 OK"
+364: NOTE cache control: max-age=1209600
+364: NOTE add to cache
+369: Responding "HTTP/1.1 200 OK"
+366: Responding "HTTP/1.1 200 OK"
+369: NOTE cache control: max-age=1209600
+367: Responding "HTTP/1.1 200 OK"
+369: NOTE add to cache
+366: NOTE cache control: max-age=1209600
+366: NOTE add to cache
+367: NOTE cache control: max-age=1209600
+367: NOTE add to cache
+372: Responding "HTTP/1.1 200 OK"
+372: NOTE cache control: max-age=1209600
+372: NOTE add to cache
+380: Responding "HTTP/1.1 200 OK"
+380: NOTE cache control: max-age=1209600
+380: NOTE add to cache
+383: CONNECT raw.githubusercontent.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:08:56 2020
+383: Responding "200 OK"
+146: Tunnel closed
+145: Tunnel closed
+215: Tunnel closed
+216: Tunnel closed
+179: Tunnel closed
+233: Tunnel closed
+232: Tunnel closed
+225: Tunnel closed
+223: Tunnel closed
+243: Tunnel closed
+254: Tunnel closed
+248: Tunnel closed
+226: Tunnel closed
+163: Responding "HTTP/1.1 200 OK"
+384: POST http://ocsp.digicert.com/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:10 2020
+384: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from ocsp.digicert.com
+384: Received "HTTP/1.1 200 OK" fromocsp.digicert.com
+274: Tunnel closed
+244: Tunnel closed
+238: Tunnel closed
+236: Tunnel closed
+265: Tunnel closed
+235: Tunnel closed
+234: Tunnel closed
+288: Tunnel closed
+363: Tunnel closed
+379: Tunnel closed
+253: Tunnel closed
+219: Tunnel closed
+221: Tunnel closed
+220: Tunnel closed
+222: Tunnel closed
+298: Tunnel closed
+224: Tunnel closed
+195: Tunnel closed
+245: Tunnel closed
+258: Tunnel closed
+228: Tunnel closed
+262: Tunnel closed
+227: Tunnel closed
+255: Tunnel closed
+229: Tunnel closed
+230: Tunnel closed
+295: Tunnel closed
+217: Tunnel closed
+210: Tunnel closed
+251: Tunnel closed
+250: Tunnel closed
+177: Tunnel closed
+275: Tunnel closed
+211: Tunnel closed
+186: Tunnel closed
+213: Tunnel closed
+188: Tunnel closed
+382: Tunnel closed
+373: Tunnel closed
+183: Tunnel closed
+249: Tunnel closed
+184: Tunnel closed
+209: Tunnel closed
+282: Tunnel closed
+172: Tunnel closed
+272: Tunnel closed
+170: Tunnel closed
+256: Tunnel closed
+168: Tunnel closed
+167: Tunnel closed
+290: Tunnel closed
+155: Tunnel closed
+153: Tunnel closed
+296: Tunnel closed
+242: Tunnel closed
+161: Tunnel closed
+276: Tunnel closed
+383: Tunnel closed
+239: Tunnel closed
+147: Tunnel closed
+144: Tunnel closed
+143: Tunnel closed
+280: Tunnel closed
+135: Tunnel closed
+136: Tunnel closed
+123: Tunnel closed
+117: Tunnel closed
+113: Tunnel closed
+119: Tunnel closed
+111: Tunnel closed
+109: Tunnel closed
+385: GET http://scratchpads.eu/ HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:13 2020
+385: not in cache
+385: Requesting "GET http://scratchpads.eu/ HTTP/1.1" from scratchpads.eu
+385: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+385: Responding "HTTP/1.1 200 OK"
+385: NOTE cache control: public, max-age=10800
+385: NOTE add to cache
+386: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+386: not in cache
+388: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_zWfPetBrjxwjs6Iur4IGyOU5Li5P2UPXpPjft7fFsiw.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+388: not in cache
+389: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_nDOdboOWOxuwprQ8VCEQNCEX7EWhtQgaGpgY20608zE.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+389: not in cache
+387: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_TVbmSUAcwaKFzEbOHjIKLegDOGb5VarTwC2XWGOrWBY.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+387: not in cache
+390: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_7Zm-__T-_BMsdxTKMPHiKgvZwzhQ7yb09IElsrSWiG0.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+390: not in cache
+391: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+391: not in cache
+392: GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_BL3mHfWYiljhQ6gicOY18bJRHdPHtOiPcefzcmmXVHI.css HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+392: not in cache
+393: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+394: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_PGQHz5MowqAfkEugsyyKAE8vVQqBQlVnns_ozIrEgec.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+393: not in cache
+394: not in cache
+395: GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/google/js.js?v=3 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+395: not in cache
+396: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_pMrwcbvpDXT1SnFvSusH7rxfGavnlx1ScSvKOpgngy0.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+396: not in cache
+397: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_dUQTYuISZzc-t0bB1zfvC2FLs2kW9u2NwLWgkTKvIcs.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+397: not in cache
+398: GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/markerclusterer.min.js?v=2.0.7 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+398: not in cache
+399: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_h1IEoEjAEq09pEzgSyvMwHG8vwtkoObu09HUZtMAcWY.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+399: not in cache
+400: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_AJeOk7XNmqaDXSQtyI6FyX1YyO3z7i21q0iZ1vr0K3A.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+400: not in cache
+401: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uGWe1aPuvEqYCsGQPKFsniFXJo4s0qKtIjJ5wB-6Ge8.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+403: GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uwrfBOJCFVq42muTMjrq2bD-RUh8NNq_fZRTb6dsNb4.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:19 2020
+401: not in cache
+403: not in cache
+386: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css HTTP/1.1" from scratchpads.eu
+388: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_zWfPetBrjxwjs6Iur4IGyOU5Li5P2UPXpPjft7fFsiw.css HTTP/1.1" from scratchpads.eu
+389: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_nDOdboOWOxuwprQ8VCEQNCEX7EWhtQgaGpgY20608zE.css HTTP/1.1" from scratchpads.eu
+387: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_TVbmSUAcwaKFzEbOHjIKLegDOGb5VarTwC2XWGOrWBY.css HTTP/1.1" from scratchpads.eu
+390: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_7Zm-__T-_BMsdxTKMPHiKgvZwzhQ7yb09IElsrSWiG0.css HTTP/1.1" from scratchpads.eu
+391: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css HTTP/1.1" from scratchpads.eu
+394: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_PGQHz5MowqAfkEugsyyKAE8vVQqBQlVnns_ozIrEgec.js HTTP/1.1" from scratchpads.eu
+393: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs.js HTTP/1.1" from scratchpads.eu
+392: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/css/css_BL3mHfWYiljhQ6gicOY18bJRHdPHtOiPcefzcmmXVHI.css HTTP/1.1" from scratchpads.eu
+395: Requesting "GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/google/js.js?v=3 HTTP/1.1" from scratchpads.eu
+396: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_pMrwcbvpDXT1SnFvSusH7rxfGavnlx1ScSvKOpgngy0.js HTTP/1.1" from scratchpads.eu
+397: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_dUQTYuISZzc-t0bB1zfvC2FLs2kW9u2NwLWgkTKvIcs.js HTTP/1.1" from scratchpads.eu
+398: Requesting "GET http://scratchpads.eu/sites/all/modules/contrib/gm3/js/markerclusterer.min.js?v=2.0.7 HTTP/1.1" from scratchpads.eu
+400: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_AJeOk7XNmqaDXSQtyI6FyX1YyO3z7i21q0iZ1vr0K3A.js HTTP/1.1" from scratchpads.eu
+399: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_h1IEoEjAEq09pEzgSyvMwHG8vwtkoObu09HUZtMAcWY.js HTTP/1.1" from scratchpads.eu
+401: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uGWe1aPuvEqYCsGQPKFsniFXJo4s0qKtIjJ5wB-6Ge8.js HTTP/1.1" from scratchpads.eu
+403: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/js/js_uwrfBOJCFVq42muTMjrq2bD-RUh8NNq_fZRTb6dsNb4.js HTTP/1.1" from scratchpads.eu
+386: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+388: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+389: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+387: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+391: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+390: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+396: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+394: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+400: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+398: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+393: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+392: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+395: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+401: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+397: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+403: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+399: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+386: Responding "HTTP/1.1 200 OK"
+386: NOTE cache control: max-age=1209600
+386: NOTE add to cache
+388: Responding "HTTP/1.1 200 OK"
+388: NOTE cache control: max-age=1209600
+388: NOTE add to cache
+397: Responding "HTTP/1.1 200 OK"
+397: NOTE cache control: max-age=1209600
+397: NOTE add to cache
+387: Responding "HTTP/1.1 200 OK"
+387: NOTE cache control: max-age=1209600
+387: NOTE add to cache
+398: Responding "HTTP/1.1 200 OK"
+398: NOTE cache control: max-age=1209600
+398: NOTE add to cache
+392: Responding "HTTP/1.1 200 OK"
+396: Responding "HTTP/1.1 200 OK"
+392: NOTE cache control: max-age=1209600
+392: NOTE add to cache
+390: Responding "HTTP/1.1 200 OK"
+394: Responding "HTTP/1.1 200 OK"
+401: Responding "HTTP/1.1 200 OK"
+403: Responding "HTTP/1.1 200 OK"
+391: Responding "HTTP/1.1 200 OK"
+395: Responding "HTTP/1.1 200 OK"
+399: Responding "HTTP/1.1 200 OK"
+389: Responding "HTTP/1.1 200 OK"
+393: Responding "HTTP/1.1 200 OK"
+400: Responding "HTTP/1.1 200 OK"
+396: NOTE cache control: max-age=1209600
+396: NOTE add to cache
+390: NOTE cache control: max-age=1209600
+390: NOTE add to cache
+394: NOTE cache control: max-age=1209600
+401: NOTE cache control: max-age=1209600
+401: NOTE add to cache
+394: NOTE add to cache
+403: NOTE cache control: max-age=1209600
+403: NOTE add to cache
+391: NOTE cache control: max-age=1209600
+391: NOTE add to cache
+395: NOTE cache control: max-age=1209600
+395: NOTE add to cache
+399: NOTE cache control: max-age=1209600
+399: NOTE add to cache
+389: NOTE cache control: max-age=1209600
+389: NOTE add to cache
+393: NOTE cache control: max-age=1209600
+393: NOTE add to cache
+400: NOTE cache control: max-age=1209600
+400: NOTE add to cache
+407: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+407: not in cache
+412: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-einfra.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+412: not in cache
+413: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-emonocot.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+413: not in cache
+414: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-vibrant.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+414: not in cache
+415: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-nhm.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+415: not in cache
+408: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Solanaceae%20Source%20case%20study.png?itok=4xwKxoN9 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+408: not in cache
+409: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Sampled%20Red%20List%20Index%20for%20Plants%202013-03-21%2012-08-09.png?itok=l6SQt-ym HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+409: not in cache
+411: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Africhthy.png?itok=tEmxtnmW HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+406: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+411: not in cache
+406: not in cache
+410: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-ner.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+410: not in cache
+416: GET http://scratchpads.eu/sites/all/modules/custom/gm3/dev/null HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+416: not in cache
+407: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1" from scratchpads.eu
+412: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-einfra.png HTTP/1.1" from scratchpads.eu
+406: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1" from scratchpads.eu
+413: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-emonocot.png HTTP/1.1" from scratchpads.eu
+411: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Africhthy.png?itok=tEmxtnmW HTTP/1.1" from scratchpads.eu
+414: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-vibrant.png HTTP/1.1" from scratchpads.eu
+415: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-nhm.png HTTP/1.1" from scratchpads.eu
+408: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Solanaceae%20Source%20case%20study.png?itok=4xwKxoN9 HTTP/1.1" from scratchpads.eu
+410: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/sponsor-logo-ner.png HTTP/1.1" from scratchpads.eu
+409: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Sampled%20Red%20List%20Index%20for%20Plants%202013-03-21%2012-08-09.png?itok=l6SQt-ym HTTP/1.1" from scratchpads.eu
+417: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/logo-green.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+417: not in cache
+418: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/search-icon.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+418: not in cache
+419: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/octopus-square.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+420: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/fern-square.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+420: not in cache
+419: not in cache
+421: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/weevil-square.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+421: not in cache
+422: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-training.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+422: not in cache
+423: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/flower-big.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+423: not in cache
+425: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-sandbox.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+424: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/feed-icon.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+424: not in cache
+425: not in cache
+416: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/dev/null HTTP/1.1" from scratchpads.eu
+426: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-ambassador.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+426: not in cache
+427: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-develop.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+427: not in cache
+428: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+428: not in cache
+429: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-read.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+429: not in cache
+430: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/common.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+430: not in cache
+431: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/map.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+431: not in cache
+432: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/util.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+432: not in cache
+412: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+407: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+433: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/marker.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+433: not in cache
+406: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+434: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-create.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+434: not in cache
+413: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+414: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+411: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+408: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+410: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+415: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+409: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+417: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/logo-green.png HTTP/1.1" from scratchpads.eu
+435: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-join.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+435: not in cache
+418: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/search-icon.png HTTP/1.1" from scratchpads.eu
+436: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/overlay.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+436: not in cache
+420: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/fern-square.png HTTP/1.1" from scratchpads.eu
+419: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/octopus-square.png HTTP/1.1" from scratchpads.eu
+423: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/flower-big.png HTTP/1.1" from scratchpads.eu
+422: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-training.png HTTP/1.1" from scratchpads.eu
+421: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/weevil-square.png HTTP/1.1" from scratchpads.eu
+437: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-signup.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+437: not in cache
+424: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/feed-icon.png HTTP/1.1" from scratchpads.eu
+425: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-sandbox.png HTTP/1.1" from scratchpads.eu
+426: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-ambassador.png HTTP/1.1" from scratchpads.eu
+416: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+438: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/twitter.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+438: not in cache
+427: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-develop.png HTTP/1.1" from scratchpads.eu
+439: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-gray.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+439: not in cache
+428: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/antkey%20case%20site.jpg?itok=IUKO9kGU HTTP/1.1" from scratchpads.eu
+440: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-GREY.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+440: not in cache
+429: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-read.png HTTP/1.1" from scratchpads.eu
+430: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/common.js HTTP/1.1" from scratchpads.eu
+431: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/map.js HTTP/1.1" from scratchpads.eu
+432: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/util.js HTTP/1.1" from scratchpads.eu
+441: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu.woff HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+441: not in cache
+433: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/marker.js HTTP/1.1" from scratchpads.eu
+434: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-create.png HTTP/1.1" from scratchpads.eu
+442: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu-Medium.woff HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:24 2020
+442: not in cache
+417: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+435: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-join.png HTTP/1.1" from scratchpads.eu
+436: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/overlay.js HTTP/1.1" from scratchpads.eu
+418: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+419: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+420: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+437: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/join-signup.png HTTP/1.1" from scratchpads.eu
+423: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+422: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+421: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+424: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+426: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+438: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/twitter.png HTTP/1.1" from scratchpads.eu
+425: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+439: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-gray.png HTTP/1.1" from scratchpads.eu
+427: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+428: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+440: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-GREY.png HTTP/1.1" from scratchpads.eu
+429: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+441: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu.woff HTTP/1.1" from scratchpads.eu
+431: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+430: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+434: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+432: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+433: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+442: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/fonts/Ubuntu-Medium.woff HTTP/1.1" from scratchpads.eu
+435: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+436: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+437: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+438: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+439: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+440: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+441: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+442: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+443: CONNECT www.google-analytics.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:28 2020
+443: Responding "200 OK"
+444: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:28 2020
+444: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+444: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+407: Responding "HTTP/1.1 200 OK"
+410: Responding "HTTP/1.1 200 OK"
+413: Responding "HTTP/1.1 200 OK"
+410: NOTE cache control: max-age=1209600
+410: NOTE add to cache
+413: NOTE cache control: max-age=1209600
+413: NOTE add to cache
+415: Responding "HTTP/1.1 200 OK"
+414: Responding "HTTP/1.1 200 OK"
+407: NOTE cache control: max-age=1209600
+416: Responding "HTTP/1.1 200 OK"
+407: NOTE add to cache
+415: NOTE cache control: max-age=1209600
+415: NOTE add to cache
+416: NOTE cache control: max-age=1209600
+416: NOTE add to cache
+412: Responding "HTTP/1.1 200 OK"
+412: NOTE cache control: max-age=1209600
+412: NOTE add to cache
+414: NOTE cache control: max-age=1209600
+414: NOTE add to cache
+445: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/stats.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:29 2020
+445: not in cache
+446: GET http://scratchpads.eu/sites/scratchpads.eu/files/scratchy_favicon.ico HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:29 2020
+446: not in cache
+447: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-ORANGE.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:29 2020
+447: not in cache
+450: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Sampled%20Red%20List%20Index%20for%20Plants%202013-03-21%2012-08-09.png?itok=l6SQt-ym HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:29 2020
+450: not in cache
+449: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Solanaceae%20Source%20case%20study.png?itok=4xwKxoN9 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:29 2020
+448: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:29 2020
+448: not in cache
+449: not in cache
+420: Responding "HTTP/1.1 200 OK"
+420: NOTE cache control: max-age=1209600
+420: NOTE add to cache
+424: Responding "HTTP/1.1 200 OK"
+424: NOTE cache control: max-age=1209600
+424: NOTE add to cache
+417: Responding "HTTP/1.1 200 OK"
+417: NOTE cache control: max-age=1209600
+417: NOTE add to cache
+422: Responding "HTTP/1.1 200 OK"
+422: NOTE cache control: max-age=1209600
+422: NOTE add to cache
+419: Responding "HTTP/1.1 200 OK"
+419: NOTE cache control: max-age=1209600
+419: NOTE add to cache
+425: Responding "HTTP/1.1 200 OK"
+425: NOTE cache control: max-age=1209600
+425: NOTE add to cache
+418: Responding "HTTP/1.1 200 OK"
+418: NOTE cache control: max-age=1209600
+418: NOTE add to cache
+421: Responding "HTTP/1.1 200 OK"
+421: NOTE cache control: max-age=1209600
+421: NOTE add to cache
+426: Responding "HTTP/1.1 200 OK"
+426: NOTE cache control: max-age=1209600
+426: NOTE add to cache
+427: Responding "HTTP/1.1 200 OK"
+427: NOTE cache control: max-age=1209600
+427: NOTE add to cache
+411: Responding "HTTP/1.1 200 OK"
+411: NOTE cache control: max-age=1209600
+411: NOTE add to cache
+451: GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Africhthy.png?itok=tEmxtnmW HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:29 2020
+451: in cache, valid
+445: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/stats.js HTTP/1.1" from scratchpads.eu
+446: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/scratchy_favicon.ico HTTP/1.1" from scratchpads.eu
+447: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/external-link-icon_-ORANGE.png HTTP/1.1" from scratchpads.eu
+450: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Sampled%20Red%20List%20Index%20for%20Plants%202013-03-21%2012-08-09.png?itok=l6SQt-ym HTTP/1.1" from scratchpads.eu
+448: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/TAXONOMY%20TRAINING%202014-11-13%2015-30-16.png?itok=gKhGIqYN HTTP/1.1" from scratchpads.eu
+449: Requesting "GET http://scratchpads.eu/sites/scratchpads.eu/files/styles/slideshow/public/casestudies/Solanaceae%20Source%20case%20study.png?itok=4xwKxoN9 HTTP/1.1" from scratchpads.eu
+428: Responding "HTTP/1.1 200 OK"
+428: NOTE cache control: max-age=1209600
+428: NOTE add to cache
+429: Responding "HTTP/1.1 200 OK"
+429: NOTE cache control: max-age=1209600
+429: NOTE add to cache
+431: Responding "HTTP/1.1 200 OK"
+431: NOTE cache control: max-age=1209600
+435: Responding "HTTP/1.1 200 OK"
+409: Responding "HTTP/1.1 200 OK"
+430: Responding "HTTP/1.1 200 OK"
+406: Responding "HTTP/1.1 200 OK"
+439: Responding "HTTP/1.1 200 OK"
+408: Responding "HTTP/1.1 200 OK"
+436: Responding "HTTP/1.1 200 OK"
+433: Responding "HTTP/1.1 200 OK"
+431: NOTE add to cache
+438: Responding "HTTP/1.1 200 OK"
+438: NOTE cache control: max-age=1209600
+438: NOTE add to cache
+437: Responding "HTTP/1.1 200 OK"
+408: NOTE cache control: max-age=1209600
+408: NOTE add to cache
+409: NOTE cache control: max-age=1209600
+409: NOTE add to cache
+439: NOTE cache control: max-age=1209600
+439: NOTE add to cache
+436: NOTE cache control: max-age=1209600
+436: NOTE add to cache
+433: NOTE cache control: max-age=1209600
+433: NOTE add to cache
+435: NOTE cache control: max-age=1209600
+435: NOTE add to cache
+437: NOTE cache control: max-age=1209600
+437: NOTE add to cache
+434: Responding "HTTP/1.1 200 OK"
+434: NOTE cache control: max-age=1209600
+434: NOTE add to cache
+430: NOTE cache control: max-age=1209600
+430: NOTE add to cache
+406: NOTE cache control: max-age=1209600
+406: NOTE add to cache
+452: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/onion.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+452: not in cache
+453: CONNECT maps.gstatic.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+453: Responding "200 OK"
+447: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+446: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+445: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+450: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+448: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+449: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+440: Responding "HTTP/1.1 200 OK"
+440: NOTE cache control: max-age=1209600
+440: NOTE add to cache
+442: Responding "HTTP/1.1 200 OK"
+442: NOTE cache control: max-age=1209600
+442: NOTE add to cache
+423: Responding "HTTP/1.1 200 OK"
+423: NOTE cache control: max-age=1209600
+423: NOTE add to cache
+441: Responding "HTTP/1.1 200 OK"
+441: NOTE cache control: max-age=1209600
+441: NOTE add to cache
+454: POST http://ocsp.pki.goog/gts1o1 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+454: Requesting "POST http://ocsp.pki.goog/gts1o1 HTTP/1.1" from ocsp.pki.goog
+454: Received "HTTP/1.1 200 OK" fromocsp.pki.goog
+452: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/onion.js HTTP/1.1" from scratchpads.eu
+432: Responding "HTTP/1.1 200 OK"
+432: NOTE cache control: max-age=1209600
+432: NOTE add to cache
+452: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+455: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+456: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+459: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+457: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+458: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+460: CONNECT tile.openstreetmap.org:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+461: GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/controls.js HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+461: not in cache
+462: GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-green.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:30 2020
+462: not in cache
+455: Responding "200 OK"
+456: Responding "200 OK"
+457: Responding "200 OK"
+458: Responding "200 OK"
+459: Responding "200 OK"
+460: Responding "200 OK"
+461: Requesting "GET http://scratchpads.eu/sites/all/modules/custom/gm3/js/google/controls.js HTTP/1.1" from scratchpads.eu
+462: Requesting "GET http://scratchpads.eu/sites/all/themes/scratchpads_eu/images/slide-bullet-green.png HTTP/1.1" from scratchpads.eu
+461: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+462: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+457: Tunnel closed
+456: Tunnel closed
+459: Tunnel closed
+458: Tunnel closed
+460: Tunnel closed
+463: GET http://cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:31 2020
+463: not in cache
+463: Requesting "GET http://cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png HTTP/1.1" from cdn.rawgit.com
+463: Received "HTTP/1.1 301 Moved Permanently" fromcdn.rawgit.com
+464: GET http://scratchpads.eu/sites/all/modules/contrib/gm3/images/sprite.png HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:33 2020
+464: not in cache
+464: Requesting "GET http://scratchpads.eu/sites/all/modules/contrib/gm3/images/sprite.png HTTP/1.1" from scratchpads.eu
+464: Received "HTTP/1.1 200 OK" fromscratchpads.eu
+446: Responding "HTTP/1.1 200 OK"
+446: NOTE cache control: max-age=1209600
+446: NOTE add to cache
+445: Responding "HTTP/1.1 200 OK"
+445: NOTE cache control: max-age=1209600
+445: NOTE add to cache
+447: Responding "HTTP/1.1 200 OK"
+447: NOTE cache control: max-age=1209600
+447: NOTE add to cache
+448: Responding "HTTP/1.1 200 OK"
+448: NOTE cache control: max-age=1209600
+448: NOTE add to cache
+452: Responding "HTTP/1.1 200 OK"
+452: NOTE cache control: max-age=1209600
+452: NOTE add to cache
+450: Responding "HTTP/1.1 200 OK"
+450: NOTE cache control: max-age=1209600
+450: NOTE add to cache
+449: Responding "HTTP/1.1 200 OK"
+449: NOTE cache control: max-age=1209600
+449: NOTE add to cache
+463: Responding "HTTP/1.1 301 Moved Permanently"
+463: NOTE cache control: 
+463: NOTE add to cache
+465: CONNECT cdn.rawgit.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:35 2020
+465: Responding "200 OK"
+466: CONNECT raw.githubusercontent.com:443 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:35 2020
+466: Responding "200 OK"
+461: Responding "HTTP/1.1 200 OK"
+462: Responding "HTTP/1.1 200 OK"
+462: NOTE cache control: max-age=1209600
+462: NOTE add to cache
+461: NOTE cache control: max-age=1209600
+461: NOTE add to cache
+467: GET http://fonts.googleapis.com/css?family=Roboto:300,400,500,700 HTTP/1.1 from 10.194.146.223 @ Fri Feb 28 22:09:35 2020
+467: not in cache
+467: Requesting "GET http://fonts.googleapis.com/css?family=Roboto:300,400,500,700 HTTP/1.1" from fonts.googleapis.com
+467: Received "HTTP/1.1 200 OK" fromfonts.googleapis.com
+467: NOTE received chunked content
+464: Responding "HTTP/1.1 200 OK"
+464: NOTE cache control: max-age=1209600
+464: NOTE add to cache

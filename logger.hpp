@@ -22,6 +22,7 @@ public:
 		myfile<<log;
 		myfile.close();
 	}
+	
 	string getCurrentTime(){
 		time_t rawtime;
 		struct tm* timeinfo;

@@ -1,0 +1,18 @@
+1. When processing the [chunked content] response, the logger would print  a note to distinguish chunked content with normal content.
+2. If the program failed to get the proxy's socket file descriptor, the mainThread() will throw exception and the program will end. 
+3. If the program failed to accept connection on it self,  the mainThread() will throw exception and the program will end. 
+4. When the program get a new request, several things would happen:
+   4.1 cannot receive response from client/receive 0 bytes: 
+    the newThread() would return and would delete the client socket file descriptr and would not have side effects on the main thread
+   4.2 when processing GET/POST request:
+    failed to get server address
+    failed o connect server 
+    failed to send request to server
+    failed to get response from server
+    failed to send responseto client
+  4.3 when processing CONNECT request:
+    failed to get server address
+    failed o connect server 
+    failed to send message after setting up the tunnel 
+    for the situations in 4.2 and 4.3, the exception would be throw to newThread(), and then the new thread would return and would not effect main thread.
+5. the program makes strong guarantee. 
