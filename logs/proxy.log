@@ -792,3 +792,36 @@
 103: Responding "HTTP/1.1 200 OK"
 104: Responding "HTTP/1.1 200 OK"
 105: Responding "HTTP/1.1 200 OK"
+100: GET http://www.mocky.io/v2/5e59ec253000003d031f0a76 HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:45:16 2020
+100: NOTE not use cache, directly to server
+100: not in cache
+100: Requesting "GET http://www.mocky.io/v2/5e59ec253000003d031f0a76 HTTP/1.1" from www.mocky.io
+100: Received "HTTP/1.1 200 OK" fromwww.mocky.io
+100: Responding "HTTP/1.1 200 OK"
+100: NOTE cache control: must-revalidate
+100: cached but requests revalidation
+100: NOTE add to cache
+101: GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:46:18 2020
+101: NOTE not use cache, directly to server
+101: not in cache
+101: Requesting "GET http://people.duke.edu/~bmr23/ece568/class.html HTTP/1.1" from people.duke.edu
+101: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+101: Responding "HTTP/1.1 200 OK"
+101: NOTE cache control: 
+101: NOTE add to cache
+102: GET http://people.duke.edu/~bmr23/style.css HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:46:18 2020
+102: NOTE not use cache, directly to server
+102: not in cache
+102: Requesting "GET http://people.duke.edu/~bmr23/style.css HTTP/1.1" from people.duke.edu
+102: Received "HTTP/1.1 200 OK" frompeople.duke.edu
+102: Responding "HTTP/1.1 200 OK"
+102: NOTE cache control: 
+102: NOTE add to cache
+103: GET http://people.duke.edu/favicon.ico HTTP/1.1 from 10.194.146.223 @ Sat Feb 29 04:46:18 2020
+103: NOTE not use cache, directly to server
+103: not in cache
+103: Requesting "GET http://people.duke.edu/favicon.ico HTTP/1.1" from people.duke.edu
+103: Received "HTTP/1.1 404 Not Found" frompeople.duke.edu
+103: Responding "HTTP/1.1 404 Not Found"
+103: NOTE cache control: 
+103: NOTE add to cache
