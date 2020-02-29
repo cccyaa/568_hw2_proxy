@@ -48,7 +48,7 @@ public:
   int mainThread(){
     LRUCache * cacheMain = new LRUCache(20);
     while(true){
-      cout << "**Waiting for connection on port 4444**" << endl;
+      cout << "**Waiting for connection on port 12345**" << endl;
       struct sockaddr_storage socket_addr;
       socklen_t socket_addr_len = sizeof(socket_addr);
       int clientSFD;
@@ -231,7 +231,7 @@ public:
     struct addrinfo host_info;
     struct addrinfo *host_info_list;
     const char *hostname = NULL;
-    const char *port     = "4444";
+    const char *port     = "12345";
 
     memset(&host_info, 0, sizeof(host_info));
 
